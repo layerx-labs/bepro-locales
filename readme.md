@@ -21,5 +21,5 @@ This repository is responsible for the translation of the [BEPRO decentralized m
   }
 }
 ```
-`this-is-a-key` **cannot** be translated. its value (`"This is a key"`) is want needs to change; This also applies for
-any groups of keys.
+`this-is-a-key` **cannot** be translated, its value (`"This is a key"`) is what needs to change;
+This also applies for any groups of keys.

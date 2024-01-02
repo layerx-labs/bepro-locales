@@ -1,65 +1,65 @@
 {
-  "label": "Pull Request",
-  "title": "Pull Request",
-  "label_one": "pull request",
-  "label_other": "pull requests",
-  "labelWithCount_one": "{{count}} pull request",
-  "labelWithCount_other": "{{count}} pull requests",
-  "abbreviation": "PR",
-  "select": "Select a deliverable",
-  "review_one": "review",
-  "review_other": "reviews",
-  "reviewWithCount_one": "{{count}} review",
-  "reviewWithCount_other": "{{count}} reviews",
-  "find-a-bounty": "Find a task to work on",
-  "loc": "LOC",
+  "label": "Solicitud de extracción",
+  "title": "Solicitud de extracción",
+  "label_one": "solicitud de extracción",
+  "label_other": "solicitudes de extracción",
+  "labelWithCount_one": "{{count}} solicitud de extracción",
+  "labelWithCount_other": "{{count}} solicitudes de extracción",
+  "abbreviation": "PE",
+  "select": "Seleccionar una entrega",
+  "review_one": "revisión",
+  "review_other": "revisiones",
+  "reviewWithCount_one": "{{count}} revisión",
+  "reviewWithCount_other": "{{count}} revisiones",
+  "find-a-bounty": "Encuentra una tarea en la que trabajar",
+  "loc": "LDC",
   "actions": {
     "create": {
-      "title": "Create Pull Request",
-      "success": "Created Pull Request",
-      "error": "To create pull request"
+      "title": "Crear solicitud de extracción",
+      "success": "Solicitud de extracción creada",
+      "error": "ara crear una solicitud de extracción"
     },
     "merge": {
-      "title": "Merge",
+      "title": "Combinar",
       "success": "",
       "error": ""
     },
     "review": {
-      "success": "Review submitted",
-      "error": "To submit review"
+      "success": "Revisión enviada",
+      "error": "Para enviar una revisión"
     },
-    "view": "View Pull Requests",
+    "view": "Ver solicitudes de extracción",
     "make-ready": {
-      "title": "Make ready for review",
-      "success": "Pull Request is ready for review",
-      "error": "Failed to make pull request ready for review"
+      "title": "Preparar para revisión",
+      "success": "La solicitud de extracción está lista para su revisión",
+      "error": "Error al preparar la solicitud de extracción para revisión"
     },
     "cancel": {
-      "title": "Cancel Pull Request",
-      "success": "Pull Request cancelled",
-      "error": "Failed to cancel pull request"
+      "title": "Cancelar solicitud de extracción",
+      "success": "Solicitud de extracción cancelada",
+      "error": "Error al cancelar la solicitud de extracción"
     },
-    "go-to-pull-request": "Go to Pull Request"
+    "go-to-pull-request": "Ir a la solicitud de extracción"
   },
   "status": {
-    "ready-to-merge": "Ready to merge",
-    "draft": "Draft",
-    "merged": "Merged",
-    "conflicts": "Conflicts",
-    "closed": "Closed",
-    "broken-tests": "Broken tests",
-    "accepted": "Accepted",
-    "disputed": "Disputed",
-    "failed": "Failed",
-    "needs-approval": "Pending approval"
+    "ready-to-merge": "Listo para fusionar",
+    "draft": "Borrador",
+    "merged": "Fusionado",
+    "conflicts": "Conflictos",
+    "closed": "Cerrado",
+    "broken-tests": "Pruebas fallidas",
+    "accepted": "Aceptado",
+    "disputed": "Discutido",
+    "failed": "Fallido",
+    "needs-approval": "Pendiente de aprobación"
   },
   "errors": {
-    "not-found": "No pull requests found",
-    "no-reviews-found": "No reviews found",
-    "merge-conflicts": "Pull request has merge conflicts and can't be merged",
-    "you-dont-have-deliverables": "You don't have any Deliverables. Find a Task to work on.",
-    "deliverable-participants": "Failed to get participants",
-    "merge-commit": "This proposal can't be merged because the repository don't allow \"merge commits\". Please contact the marketplace governor.",
-    "approval": "Please contact repository admin for pull request approval before merging is enabled."
+    "not-found": "No se encontraron solicitudes de extracción",
+    "no-reviews-found": "No se encontraron revisiones",
+    "merge-conflicts": "La solicitud de extracción tiene conflictos de fusión y no se puede fusionar",
+    "you-dont-have-deliverables": "No tienes entregables. Encuentra una tarea en la que trabajar.",
+    "deliverable-participants": "Error al obtener participantes",
+    "merge-commit": "Esta propuesta no se puede fusionar porque el repositorio no permite \"fusiones de commits\". Por favor, contacta al gobernador del mercado.",
+    "approval": "Por favor, contacta al administrador del repositorio para la aprobación de la solicitud de extracción antes de habilitar la fusión."
   }
 }

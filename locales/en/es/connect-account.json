@@ -1,16 +1,16 @@
 {
-  "connect-github-and-wallet": "Connect your GitHub account and MetaMask wallet",
-  "connect-to-use": "To access certain parts of the marketplace we need you to connect your github account",
-  "connected-accounts": "Connected accounts!",
+  "connect-github-and-wallet": "Conecta tu cuenta de GitHub y tu billetera MetaMask",
+  "connect-to-use": "Para acceder a ciertas partes del mercado, necesitamos que conectes tu cuenta de GitHub",
+  "connected-accounts": "Cuentas conectadas!",
   "warnings": {
-    "already-connected": "These accounts are already connected",
-    "already-in-use": "This github account or this wallet is already in use. Please sign out and try again with other accounts."
+    "already-connected": "Estas cuentas ya están conectadas",
+    "already-in-use": "Esta cuenta de GitHub o esta billetera ya están en uso. Por favor, cierra sesión e intenta nuevamente con otras cuentas."
   },
   "errors": {
-    "migrating-address-not-match": "When migrating, address must match {{address}}.",
-    "migrating-already-happened": "Migration not possible or already happened.",
-    "no-actions-needed": "No actions needed for this user",
-    "try-again": "Try again later",
-    "something-went-wrong": "Something went wrong"
+    "migrating-address-not-match": "Cuando se migra, la dirección debe coincidir con {{address}}.",
+    "migrating-already-happened": "Migración no posible o ya ha ocurrido.",
+    "no-actions-needed": "No se necesitan acciones para este usuario",
+    "try-again": "Inténtalo de nuevo más tarde",
+    "something-went-wrong": "Algo salió mal"
   }
 }

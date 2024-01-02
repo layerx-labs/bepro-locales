@@ -1,86 +1,86 @@
 {
-  "balance": "Balance",
-  "wallet": "Wallet",
-  "search-wallet": "Search for Token",
+  "balance": "Saldo",
+  "wallet": "Billetera",
+  "search-wallet": "Buscar Token",
   "not-found": {
-    "voting-power": "Voting power not found",
-    "tokens": "Tokens not found",
-    "any-voting-power": "you do not have any voting power on any marketplace"
+    "voting-power": "Poder de voto no encontrado",
+    "tokens": "Tokens no encontrados",
+    "any-voting-power": "No tienes ningún poder de voto en ningún marketplace"
   },
   "tokens": "Tokens",
-  "balances-transactional-tokens": "Balances for transactional tokens",
-  "oracle-name-placeholder": "Locked Marketplace Token",
-  "deletaged-to-me": "Delegated to me",
-  "deletaged-to-others": "Delegated to others",
-  "total-votes": "Total Votes",
-  "locked-by-me": "Locked by me",
-  "connect-wallet": "Connect Wallet",
-  "council": "Curator",
-  "connect-github": "Connect Github",
-  "go-to-network": "Go to Marketplace",
-  "total-received": "Total received",
-  "connections": "Connections",
-  "voting-power": "Voting Power",
-  "need-network-to-manage": "To manage your voting power you need to be in a especific marketplace",
+  "balances-transactional-tokens": "Saldos para tokens transaccionales",
+  "oracle-name-placeholder": "Token de Marketplace Bloqueado",
+  "deletaged-to-me": "Delegado a mí",
+  "deletaged-to-others": "Delegado a otros",
+  "total-votes": "Votos totales",
+  "locked-by-me": "Bloqueado por mí",
+  "connect-wallet": "Conectar Billetera",
+  "council": "Consejo",
+  "connect-github": "Conectar Github",
+  "go-to-network": "Ir al Marketplace",
+  "total-received": "Total recibido",
+  "connections": "Conexiones",
+  "voting-power": "Poder de Voto",
+  "need-network-to-manage": "Para gestionar tu poder de voto, debes estar en un marketplace específico",
   "network-columns": {
-    "network-name": "Marketplace name",
-    "total-votes": "Total votes",
-    "total-received": "Total received",
-    "network-link": "Marketplace link"
+    "network-name": "Nombre del Marketplace",
+    "total-votes": "Votos totales",
+    "total-received": "Total recibido",
+    "network-link": "Enlace del Marketplace"
   },
   "payments": {
-    "period": "Period"
+    "period": "Periodo"
   },
   "actions": {
-    "remove-github-account": "Disconnect Github Handle",
-    "change-my-handle": "Change my handle with github",
-    "change-handle": "Change handle"
+    "remove-github-account": "Desconectar Handle de Github",
+    "change-my-handle": "Cambiar mi handle con Github",
+    "change-handle": "Cambiar handle"
   },
   "tips": {
-    "total-balance": "Total tokens in your wallet",
-    "total-oracles": "Total {{tokenName}} token locked available for marketplace curation"
+    "total-balance": "Total de tokens en tu billetera",
+    "total-oracles": "Total de tokens {{tokenName}} bloqueados disponibles para la curación del marketplace"
   },
   "modals": {
     "remove-github": {
-      "title": "Remove Github Account",
-      "account-from-wallet": "account from the wallet",
-      "success": "Github handle removed successfully",
+      "title": "Eliminar Cuenta de Github",
+      "account-from-wallet": "cuenta de la billetera",
+      "success": "Handle de Github eliminado con éxito",
       "warnings": {
-        "period": "The account can only be changed again after seven days",
-        "deliverables": "There must be no open deliverables on tasks for this account"
+        "period": "La cuenta solo se puede cambiar nuevamente después de siete días",
+        "deliverables": "No debe haber entregables abiertos en tareas para esta cuenta"
       },
       "errors": {
-        "github-already-exists": "This github handle already exists in another account",  
-        "less-than-7-days": "Last account change was less than 7 days ago",
-        "deliverables-open": "There are deliverables open for this account",
-        "failed-to-remove": "Failed to remove account",
-        "check-requirements": "Check the requirements"
+        "github-already-exists": "Este handle de GitHub ya existe en otra cuenta",  
+        "less-than-7-days": "El último cambio de cuenta fue hace menos de 7 días",
+        "deliverables-open": "Hay entregables abiertos para esta cuenta",
+        "failed-to-remove": "No se pudo eliminar la cuenta",
+        "check-requirements": "Verifica los requisitos"
       }
     },
     "connect-github": {
-      "title": "Change Handle",
-      "description": "Connect with GitHub and personalize your app profile effortlessly! By clicking the 'Connect' button, you'll use your GitHub login as your handle on the app and your GitHub avatar. It's a seamless way to bring your GitHub identity to our platform.",
+      "title": "Cambiar Handle",
+      "description": "Conéctate con GitHub y personaliza tu perfil de aplicación sin esfuerzo! Al hacer clic en el botón 'Conectar', utilizarás tu inicio de sesión de GitHub como tu handle en la aplicación y tu avatar de GitHub. Es una forma perfecta de llevar tu identidad de GitHub a nuestra plataforma.",
       "errors": {
-        "github-already-exists": "This github handle already exists in another account"
+        "github-already-exists": "Este handle de GitHub ya existe en otra cuenta"
       }
     }
    },
    "notifications-form": {
-      "title": "Notifications",
-      "message": "Allow Bepro Marketplace to send you updates via email. These can include updates to tasks, app updates, etc.",
-      "invalid-email": "Invalid email",
-      "re-send-email": "A confirmation email was sent, please check your inbox and spam box.",
-      "re-send": "Re-send",
+      "title": "Notificaciones",
+      "message": "Permite que Bepro Marketplace te envíe actualizaciones por correo electrónico. Estas pueden incluir actualizaciones de tareas, actualizaciones de la aplicación, etc.",
+      "invalid-email": "Correo electrónico inválido",
+      "re-send-email": "Se ha enviado un correo electrónico de confirmación, por favor revisa tu bandeja de entrada y la carpeta de spam.",
+      "re-send": "Reenviar",
       "success-toast": {
-        "title": "Success",
-        "content": "Email confirmed"
+        "title": "Éxito",
+        "content": "Correo electrónico confirmado"
       }
    },
    "email-errors": {
-    "invalid-link": "Invalid confirmation link",
-    "already-confirmed": "Email already confirmed",
-    "expired-link": "This confirmation link is expired. Try re-sending another email.",
-    "failed-to-update": "Failed to update email",
-    "try-again-later": "Something went wrong, try again later"
+    "invalid-link": "Enlace de confirmación inválido",
+    "already-confirmed": "Correo electrónico ya confirmado",
+    "expired-link": "Este enlace de confirmación ha caducado. Intenta reenviar otro correo electrónico.",
+    "failed-to-update": "Error al actualizar el correo electrónico",
+    "try-again-later": "Algo salió mal, inténtalo nuevamente más tarde"
    }
 }

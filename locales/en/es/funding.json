@@ -1,49 +1,49 @@
 {
-  "title": "Funding",
-  "reward": "Reward",
-  "rewards": "Rewards",
-  "current-funding": "Current Funding",
-  "total-amount": "Total Amount",
-  "gross-total-amount": "Gross Total Amount",
-  "funding-rewards": "Funding Rewards",
-  "funds-given": "Funds Given",
-  "future-rewards": "Future Rewards",
-  "try-again": "Something went wrong. Try again later.",
-  "fund": "fund",
+  "title": "Financiamiento",
+  "reward": "Recompensa",
+  "rewards": "Recompensas",
+  "current-funding": "Financiamiento actual",
+  "total-amount": "Cantidad total",
+  "gross-total-amount": "Cantidad total bruta",
+  "funding-rewards": "Recompensas de financiamiento",
+  "funds-given": "Fondos otorgados",
+  "future-rewards": "Recompensas futuras",
+  "try-again": "Algo salió mal. Inténtalo de nuevo más tarde.",
+  "fund": "financiar",
   "actions": {
-    "fund-bounty": "Fund Task",
-    "manage-funding": "Manage Funding",
-    "retract-funding": "Retract Funding",
-    "withdraw-funding": "Withdraw Reward"
+    "fund-bounty": "Financiar tarea",
+    "manage-funding": "Gestionar financiamiento",
+    "retract-funding": "Retirar financiamiento",
+    "withdraw-funding": "Retirar recompensa"
   },
   "modals": {
     "fund": {
-      "title": "Fund Task",
-      "description": "You are about to fund",
-      "funded-succesfully": "Task Funded Sucessfully",
-      "funded-x-symbol": "Funded {{amount}} {{symbol}}",
-      "failed-to-fund": "Failed to fund task",
+      "title": "Financiar tarea",
+      "description": "Estás a punto de financiar",
+      "funded-succesfully": "Tarea financiada exitosamente",
+      "funded-x-symbol": "Financiado {{amount}} {{symbol}}",
+      "failed-to-fund": "Error al financiar la tarea",
       "fields": {
         "fund-amount": {
-          "label": "Fund Amount"
+          "label": "Monto a financiar"
         }
       }
     },
     "retract": {
-      "title": "Retract Funding",
-      "description": "You are about to retract",
-      "from-the": "from the",
-      "retract-successfully": "Retract Funds Successfully",
-      "retract-x-symbol": "Retracted {{amount}} ${{symbol}}",
-      "failed-to-retract": "Failed to retract funds"
+      "title": "Retraer Financiamiento",
+      "description": "Estás a punto de retractar",
+      "from-the": "del",
+      "retract-successfully": "Fondos Retraídos Exitosamente",
+      "retract-x-symbol": "Retracción de {{amount}} {{symbol}}",
+      "failed-to-retract": "Error al retraer fondos"
     },
     "reward": {
-      "title": "Withdraw Funding Reward",
-      "description": "You are about to withdraw reward",
-      "from-the": "from the",
-      "withdraw-x-symbol": "Withdraw {{amount}} {{symbol}}",
-      "withdraw-successfully": "Withdraw Funds Reward Successfully",
-      "failed-to-withdraw": "failed to withdraw funds reward"
+      "title": "Retirar Recompensa de Financiamiento",
+      "description": "Estás a punto de retirar la recompensa",
+      "from-the": "del",
+      "withdraw-x-symbol": "Retirar {{amount}} {{symbol}}",
+      "withdraw-successfully": "Retiro de Recompensa de Fondos Exitoso",
+      "failed-to-withdraw": "Error al retirar la recompensa de fondos"
     }
   }
 }

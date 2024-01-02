@@ -1,18 +1,18 @@
 {
- "title": "Leaderboard",
- "sub-title": "Find the developers who find the most solutions to many problems",
+ "title": "Tabla de Clasificación",
+ "sub-title": "Encuentra a los desarrolladores que encuentran la mayoría de las soluciones a muchos problemas",
  "sort": {
-    "most-nfts": "Most NFTs",
-    "lowest-nfts": "Lowest NFTs"
+    "most-nfts": "Más NFTs",
+    "lowest-nfts": "Menos NFTs"
 },
-"search": "Search for developers",
-"not-found": "Not found",
-"address-copied": "Address copied",
+"search": "Buscar desarrolladores",
+"not-found": "No encontrado",
+"address-copied": "Dirección copiada",
 "nfts": "NFTs",
 "table": {
-    "address": "Address",
-    "github-handle": "Github Handle",
-    "nfts": "NFTS",
-    "actions": "Actions"
+    "address": "Dirección",
+    "github-handle": "Usuario de Github",
+    "nfts": "NFTs",
+    "actions": "Acciones"
 }
 }

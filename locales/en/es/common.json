@@ -1,510 +1,510 @@
 {
-  "title": "Hello world",
+  "title": "Hola mundo",
   "$oracles": "bv{{token}}",
-  "bepro-votes": "Bepro Votes",
+  "bepro-votes": "Votos BEPRO",
   "$bepro": "BEPRO",
   "bepro": "BEPRO",
-  "token-votes": "{{token}} Votes",
-  "tokens-locked": "Tokens Locked",
-  "please-wait": "Please wait",
-  "close": "Close",
+  "token-votes": "{{token}} Votos",
+  "tokens-locked": "Tokens Bloqueados",
+  "please-wait": "Por favor espera",
+  "close": "Cerrar",
   "currencies": {
     "euro": "EURO",
-    "error-convert-all-to-fiat": "Could not convert all tokens to {{fiat}}"
+    "error-convert-all-to-fiat": "No se pudieron convertir todos los tokens a {{fiat}}"
   },
   "filters": {
-    "filters": "Filter",
-    "search-repositories": "Search repositories",
-    "repository": "Repository",
-    "all": "All",
-    "no-records-found": "No records found",
-    "clear-filter": "Clear filter",
+    "filters": "Filtro",
+    "search-repositories": "Buscar repositorios",
+    "repository": "Repositorio",
+    "all": "Todos",
+    "no-records-found": "No se encontraron registros",
+    "clear-filter": "Limpiar filtro",
     "bounties": {
-      "title": "Task state",
-      "all": "All tasks",
-      "open": "Open tasks",
-      "draft": "Draft tasks",
-      "closed": "Closed tasks",
-      "not-found": "Tasks not found",
-      "open-not-found": "Open tasks not found",
-      "draft-not-found": "Draft tasks not found",
-      "closed-not-found": "Closed tasks not found"
+      "title": "Estado de Tareas",
+      "all": "Todas las tareas",
+      "open": "Tareas abiertas",
+      "draft": "Tareas en borrador",
+      "closed": "Tareas cerradas",
+      "not-found": "Tareas no encontradas",
+      "open-not-found": "Tareas abiertas no encontradas",
+      "draft-not-found": "Tareas en borrador no encontradas",
+      "closed-not-found": "Tareas cerradas no encontradas"
     },
     "timeframe": {
-      "title": "Timeframe",
-      "week": "Past week",
-      "month": "Past month",
-      "year": "Past year"
+      "title": "Marco de tiempo",
+      "week": "Semana pasada",
+      "month": "Mes pasado",
+      "year": "Año pasado"
     }
   },
   "account": {
     "hero": {},
-    "payments": "Payments",
-    "payments-notfound": "you haven’t received any payments."
+    "payments": "Pagos",
+    "payments-notfound": "No has recibido ningún pago."
   },
   "heroes": {
-    "in-progress": "Tasks in progress",
+    "in-progress": "Tareas en progreso",
     "bounties": {
-      "title": "Tasks",
-      "subtitle": "find a task that you want to work on, create a solution and get paid"
+      "title": "Tareas",
+      "subtitle": "Encuentra una tarea en la que quieras trabajar, crea una solución y recibe un pago"
     },
-    "bounties-closed": "Closed tasks",
-    "in-network": "In the Marketplace",
-    "protocol-members": "Protocol members",
-    "my-account": "My account",
-    "delegated-oracles": "Delegated bv{{token}}",
-    "delegated-by-others": "Delegated by Other"
+    "bounties-closed": "Tareas cerradas",
+    "in-network": "En el Mercado",
+    "protocol-members": "Miembros del Protocolo",
+    "my-account": "Mi cuenta",
+    "delegated-oracles": "bv{{token}} delegados",
+    "delegated-by-others": "Delegado por Otros"
   },
   "connect-states": {
     "github": "",
     "wallet": {}
   },
   "main-nav": {
-    "curators": "Curators",
-    "leaderboard": "Leaderboard",
+    "curators": "Curadores",
+    "leaderboard": "Tabla de clasificación",
     "Oracle": "bv{{token}}",
-    "new-bounty": "Create task",
-    "explore": "Explore",
-    "bounty-hall": "Task Hall",
-    "get-started": "Get Started",
-    "connect": "Connect",
-    "connect-wallet": "Connect Wallet",
-    "new-network": "New Marketplace",
-    "my-network": "My Marketplace",
-    "networks": "Marketplaces",
-    "marketplaces": "Marketplaces",
-    "bounties": "Tasks",
-    "tasks": "Tasks",
+    "new-bounty": "Crear tarea",
+    "explore": "Explorar",
+    "bounty-hall": "Sala de tareas",
+    "get-started": "Empezar",
+    "connect": "Conectar",
+    "connect-wallet": "Conectar Billetera",
+    "new-network": "Nuevo Mercado",
+    "my-network": "Mi Mercado",
+    "networks": "Mercados",
+    "marketplaces": "Mercados",
+    "bounties": "Tareas",
+    "tasks": "Tareas",
     "nav-avatar": {
-      "my-profile": "My profile",
-      "profile": "Profile",
-      "wallet": "Wallet",
-      "voting-power": "Voting Power",
-      "payments": "Payments",
-      "bounties": "Tasks",
-      "deliverables": "Deliverables",
-      "proposals": "Proposals",
-      "my-network": "Custom Marketplace",
+      "my-profile": "Mi perfil",
+      "profile": "Perfil",
+      "wallet": "Billetera",
+      "voting-power": "Poder de voto",
+      "payments": "Pagos",
+      "bounties": "Tareas",
+      "deliverables": "Entregables",
+      "proposals": "Propuestas",
+      "my-network": "Mercado personalizado",
       "support-center": "Support Center",
-      "guides": "Guides",
-      "join-discord": "Join the Discord",
-      "follow-on-twitter": "Follow @bepronet on Twitter",
-      "web-network-1": "Web Marketplace Version 1.0",
-      "disconnect-wallet": "Disconnect"
+      "guides": "Guías",
+      "join-discord": "Únete a Discord",
+      "follow-on-twitter": "Sigue a @bepronet en Twitter",
+      "web-network-1": "Versión 1.0 del mercado web",
+      "disconnect-wallet": "Desconectar"
     }
   },
-  "select-a-repository": "Select a repository",
-  "select-a-branch": "Select a branch",
-  "select-a-network": "Select a marketplace",
-  "support-text-branch": "If you’re unsure of what branch to choose, ask",
-  "the-community": "the community",
+  "select-a-repository": "Seleccionar un repositorio",
+  "select-a-branch": "Seleccionar una rama",
+  "select-a-network": "Seleccionar un mercado",
+  "support-text-branch": "Si no estás seguro de qué rama elegir, pregunta a",
+  "the-community": "la comunidad",
   "select-multiple": {
-    "allowed-transactional-tokens": "Allowed Transactional tokens",
-    "add-transactional-tokens": "Add Transactional tokens",
-    "allowed-reward-tokens": "Allowed Reward tokens",
-    "add-reward-tokens": "Add Reward tokens"
+    "allowed-transactional-tokens": "Tokens Transaccionales Permitidos",
+    "add-transactional-tokens": "Agregar Tokens Transaccionales",
+    "allowed-reward-tokens": "Tokens de Recompensa Permitidos",
+    "add-reward-tokens": "Agregar Tokens de Recompensa"
   },
   "status": {
-    "network-problems": "marketplace problems",
-    "waiting": "waiting",
-    "operational": "operational",
-    "network-congestion": "marketplace congestion",
-    "tagline": "Bepro Marketplace Services and BEPRO Token are not available in Excluded Jurisdictions. By accessing and using the interface you agree with our",
-    "terms-and-conditions": "Terms and Conditions",
-    "support": "support"
+    "network-problems": "problemas en el mercado",
+    "waiting": "esperando",
+    "operational": "operativo",
+    "network-congestion": "congestión en el mercado",
+    "tagline": "Los Servicios del Mercado Bepro y el Token BEPRO no están disponibles en Jurisdicciones Excluidas. Al acceder y usar la interfaz, aceptas nuestros",
+    "terms-and-conditions": "Términos y Condiciones",
+    "support": "soporte"
   },
   "actions": {
-    "accepted": "Accepted",
-    "approve": "Approve",
-    "cancel": "Cancel",
-    "back": "Back",
-    "close": "Close",
-    "continue": "Continue",
-    "completed": "Completed",
-    "confirm": "Confirm",
-    "connect": "Connect",
-    "disconnect": "Disconnect",
-    "connect-wallet": "Connect Wallet",
-    "connect-your-wallet": "Connect your Wallet",
-    "create-one": "Create one",
-    "dispute": "Dispute",
-    "merge": "Merge",
-    "done": "Done",
-    "failed": "Failed",
-    "fork-repository": "Fork this Repository",
-    "redeem": "Redeem",
-    "reply-on-github": "Reply on Github",
-    "review": "Review",
-    "view-proposal": "View Proposal",
-    "view-deliverable": "View Deliverable",
-    "make-a-review": "Make a Review",
-    "success": "Success",
-    "view-on-github": "View on Github",
-    "update": "Update",
-    "take-back": "Take Back",
-    "install": "Install",
-    "try-again": "Try Again",
-    "view-bounties": "View Tasks",
-    "reconnect-account": "Reconnect account",
-    "unlock-all": "Unlock all",
-    "back-to-top": "Back to Top",
-    "refuse": "Refuse",
-    "disconnect-accounts": "Disconnect Accounts",
-    "show": "Show",
-    "hide": "Hide",
-    "remove": "Remove",
-    "register": "Register",
-    "clear-all": "Clear All",
-    "apply": "Apply",
-    "clear": "Clear",
-    "save": "Save",
-    "accept": "Accept",
-    "reload": "Reload"
+    "accepted": "Aceptado",
+    "approve": "Aprobar",
+    "cancel": "Cancelar",
+    "back": "Volver",
+    "close": "Cerrar",
+    "continue": "Continuar",
+    "completed": "Completado",
+    "confirm": "Confirmar",
+    "connect": "Conectar",
+    "disconnect": "Desconectar",
+    "connect-wallet": "Conectar Billetera",
+    "connect-your-wallet": "Conectar tu Billetera",
+    "create-one": "Crear uno",
+    "dispute": "Disputa",
+    "merge": "Combinar",
+    "done": "Hecho",
+    "failed": "Fallido",
+    "fork-repository": "Hacer una bifurcación de este Repositorio",
+    "redeem": "Canjear",
+    "reply-on-github": "Responder en Github",
+    "review": "Revisión",
+    "view-proposal": "Ver Propuesta",
+    "view-deliverable": "Ver Entregable",
+    "make-a-review": "Realizar una Revisión",
+    "success": "Éxito",
+    "view-on-github": "Ver en Github",
+    "update": "Actualizar",
+    "take-back": "Recuperar",
+    "install": "Instalar",
+    "try-again": "Intentar de nuevo",
+    "view-bounties": "Ver Tareas",
+    "reconnect-account": "Reconectar cuenta",
+    "unlock-all": "Desbloquear todo",
+    "back-to-top": "Volver arriba",
+    "refuse": "Rechazar",
+    "disconnect-accounts": "Desconectar Cuentas",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "remove": "Eliminar",
+    "register": "Registrarse",
+    "clear-all": "Borrar Todo",
+    "apply": "Aplicar",
+    "clear": "Limpiar",
+    "save": "Guardar",
+    "accept": "Aceptar",
+    "reload": "Recargar"
   },
   "misc": {
-    "by": "by",
-    "ago": "ago",
-    "and": "and",
-    "add": "Add",
-    "cap": "cap",
-    "comments": "Comments",
-    "created-at": "Created at",
-    "description": "Description",
-    "details": "Details",
-    "forks": "Forks",
-    "title": "Title",
-    "chain": "Network",
+    "by": "por",
+    "ago": "hace",
+    "and": "y",
+    "add": "Agregar",
+    "cap": "Capacidad",
+    "comments": "Comentarios",
+    "created-at": "Creado el",
+    "description": "Descripción",
+    "details": "Detalles",
+    "forks": "Bifurcaciones",
+    "title": "Título",
+    "chain": "Red",
     "github": "Github",
     "metamask": "Metamask",
-    "options": "Options",
-    "by-connecting": "By connecting, you accept",
-    "terms-and-conditions": "Terms & Conditions",
-    "privacy-policy": "Privacy Policy",
-    "loading": "Loading",
-    "reward": "Reward",
-    "max": "Max",
-    "get": "Get",
-    "from": "From",
-    "to": "To",
-    "status": "Status",
-    "available": "Available",
-    "giving-away": "giving away",
-    "locked": "Locked",
-    "upload": "upload",
-    "token": "token",
-    "token_other": "tokens",
+    "options": "Opciones",
+    "by-connecting": "Al conectar, aceptas",
+    "terms-and-conditions": "Términos y Condiciones",
+    "privacy-policy": "Política de Privacidad",
+    "loading": "Cargando",
+    "reward": "Recompensa",
+    "max": "Máx",
+    "get": "Obtener",
+    "from": "Desde",
+    "to": "Hasta",
+    "status": "Estado",
+    "available": "Disponible",
+    "giving-away": "regalando",
+    "locked": "Bloqueado",
+    "upload": "Subir",
+    "token": "Token",
+    "token_other": "Tokens",
     "$token": "TOKEN",
-    "creation-date": "creation date",
-    "seconds": "seconds",
-    "on": "on",
-    "next-step": "Next Step",
-    "fork": "Fork",
-    "organization": "Organization",
+    "creation-date": "Fecha de Creación",
+    "seconds": "segundos",
+    "on": "en",
+    "next-step": "Siguiente Paso",
+    "fork": "Hacer una bifurcación",
+    "organization": "Organización",
     "total": "Total",
-    "clear": "Clear",
-    "wallet": "Wallet",
-    "unkown": "Unknown",
-    "latest": "Latest",
-    "network": "Marketplace",
-    "unsupported": "Unsupported",
-    "votes": "Votes",
-    "changing": "Changing",
-    "save-changes": "Save Changes",
-    "repository": "Repository",
-    "branch": "Branch",
-    "opened-on": "Opened on",
-    "owner": "Owner",
-    "apply": "apply",
-    "create": "Create",
-    "bounty": "Task",
-    "choose-one": "Choose one",
-    "networks": "Marketplaces",
-    "copied": "Copied",
-    "address-copied": "Address Copied",
-    "empty-list": "Empty List",
-    "learn-more": "Learn More",
-    "origin": "Origin",
-    "type": "Type",
-    "all-chains": "All Networks"
+    "clear": "Limpiar",
+    "wallet": "Billetera",
+    "unkown": "Desconocido",
+    "latest": "Último",
+    "network": "Mercado",
+    "unsupported": "No compatible",
+    "votes": "Votos",
+    "changing": "Cambiando",
+    "save-changes": "Guardar Cambio",
+    "repository": "Repositorio",
+    "branch": "Rama",
+    "opened-on": "Abierto el",
+    "owner": "Propietario",
+    "apply": "Aplicar",
+    "create": "Crear",
+    "bounty": "Tarea",
+    "choose-one": "Elegir uno",
+    "networks": "Mercados",
+    "copied": "Copiado",
+    "address-copied": "Dirección Copiada",
+    "empty-list": "Lista Vacíat",
+    "learn-more": "Aprender más",
+    "origin": "Origen",
+    "type": "Tipo",
+    "all-chains": "Todas las Redes"
   },
   "modals": {
     "help-modal": {
-      "title": "Help",
+      "title": "Ayuda",
       "help-center": {
-        "title": "help center",
-        "content": "Know more about Bepro Marketplace and how to use it."
+        "title": "Centro de Ayuda",
+        "content": "Conoce más sobre el Mercado Bepro y cómo usarlo."
       },
       "api-documentation": {
-        "title": "api documentation",
-        "content": "Develop with @taikai/dappkit and create your next web3 app."
+        "title": "Documentación de la API",
+        "content": "Desarrolla con @taikai/dappkit y crea tu próxima aplicación web3."
       },
       "live-chat": {
-        "title": "live chat",
-        "content": "Chat with the community and get live support."
+        "title": "Chat en Vivo",
+        "content": "Chatea con la comunidad y obtén soporte en tiempo real."
       },
       "provide-feedback": {
-        "title": "provide feedback",
-        "content": "Product feedback and requests."
+        "title": "Proporcionar Retroalimentacións",
+        "content": "Retroalimentación y solicitudes de producto."
       },
       "terms-and-conditions": {
-        "title": "Terms and Conditions",
-        "content": "Product feedback and requests."
+        "title": "Términos y Condiciones",
+        "content": "Retroalimentación y solicitudes de producto."
       }
     },
     "invalid-account-wallet": {
-      "title": "Github Account and Wallet don't match",
-      "description": "Please change to the previously connected wallet and disconnect your github account from your profile page if you wish to change the connection or connect with github already registered and disconnect from this wallet"
+      "title": "La Cuenta de Github y la Billetera no coinciden",
+      "description": "Por favor, cambia a la billetera previamente conectada y desconecta tu cuenta de github desde tu página de perfil si deseas cambiar la conexión o conectarte con github ya registrado y desconectar esta billetera"
     },
     "not-mergeable": {
-      "title": "Merging task",
-      "closed-bounty": "This task was closed and distributed but the code was unable to be merged.",
-      "open-bounty": "This proposal has github conflicts and cannot be merged. Please, fix it before doing so.",
-      "go-to-pr": "Go to Deliverable",
-      "success-message": "Deliverable accepted",
-      "merge-failed": "Merge Failed",
-      "retry-merge": "Retry Merge"
+      "title": "Unión de Tareas",
+      "closed-bounty": "Esta tarea fue cerrada y distribuida pero el código no pudo ser fusionado.",
+      "open-bounty": "Esta propuesta tiene conflictos en Github y no puede ser fusionada. Por favor, arréglelo antes de hacerlo.",
+      "go-to-pr": "Ir al Entregable",
+      "success-message": "Entregable aceptado",
+      "merge-failed": "Fusión Fallida",
+      "retry-merge": "Intentar Fusionar de Nuevo"
     },
     "create-review": {
-      "title": "Review",
+      "title": "Revisión",
       "fields": {
         "review": {
-          "label": "Review",
-          "placeholder": "Type a review..."
+          "label": "Revisión",
+          "placeholder": "Escribe una revisión..."
         },
         "type": {
-          "label": "Type",
+          "label": "Tipo",
           "options": {
             "comment": {
-              "label": "Comment",
-              "description": "Submit general feedback without explicit approval."
+              "label": "Comentario",
+              "description": "Envía comentarios generales sin aprobación explícita."
             },
             "approve": {
-              "label": "Approve",
-              "description": "Submit feedback and approve merging these changes."
+              "label": "Aprobar",
+              "description": "Envía comentarios y aprueba la fusión de estos cambios."
             }
           }
         }
       },
-      "create-review": "Create Review"
+      "create-review": "Crear Revisión"
     },
     "set-bounty-draft": {
-      "title": "Set task as draft"
+      "title": "Establecer tarea como borrador"
     },
     "mobile-information": {
-      "title": "MetaMask Mobile",
-      "description": "MetaMask is not available on this mobile browser. In order to interact with this DApp on a mobile you need to access using Metamask app built-in browser.",
-      "open-in-metamask": "Open in MetaMask"
+      "title": "MetaMask Móvil",
+      "description": "MetaMask no está disponible en este navegador móvil. Para interactuar con esta DApp en un dispositivo móvil, necesitas acceder utilizando el navegador integrado de la aplicación MetaMask.",
+      "open-in-metamask": "Abrir en MetaMask"
     },
     "web3-dialog": {
-      "title": "MetaMask not Detected",
-      "eth-not-available": "No ETH account available",
-      "message": "It seems that you don't have a MetaMask account selected. If using MetaMask, please make sure that your wallet is unlocked and that you have at least one account in your accounts list."
+      "title": "MetaMask no detectado",
+      "eth-not-available": "No hay cuenta de ETH disponible",
+      "message": "Parece que no tienes una cuenta de MetaMask seleccionada. Si estás utilizando MetaMask, asegúrate de que tu billetera esté desbloqueada y de que tengas al menos una cuenta en tu lista de cuentas."
     },
     "missing-metamask": {
-      "title": "Metamask communication problem",
-      "description": "The application could not communicate properly with the Metamask extension, please disable other wallets that you might have"
+      "title": "Problema de comunicación con MetaMask",
+      "description": "La aplicación no pudo comunicarse adecuadamente con la extensión de MetaMask, por favor, deshabilita otras billeteras que puedas tener"
     },
     "wrong-network": {
-      "please-connect": "Please, connect to a supported network",
-      "connect-to-network-chain": "To interact with this marketplace, please connect to the network below",
-      "network": "marketplace",
-      "on-your-wallet": "on your metamask wallet",
-      "change-network": "Change Network",
-      "error-invalid-rpcUrl": "rpcUrls error expected an array with at least one valid string HTTPS url",
-      "error-failed-rpcUrl": "Request rpcUrl failed"
+      "please-connect": "Por favor, conéctate a una red admitida",
+      "connect-to-network-chain": "Para interactuar con este mercado, por favor, conéctate a la siguiente red",
+      "network": "mercado",
+      "on-your-wallet": "en tu billetera Metamask",
+      "change-network": "Cambiar Red",
+      "error-invalid-rpcUrl": "Error rpcUrls, se esperaba un array con al menos una URL HTTPS válida",
+      "error-failed-rpcUrl": "Fallo en la solicitud rpcUrl"
     },
     "user-missing-information": {
-      "title": "Your account is missing some information",
-      "content": "We need you to reconnect your Github Account",
-      "error-message": "You need to unlock all your BEPRO before doing this"
+      "title": "Tu cuenta falta de cierta información",
+      "content": "Necesitamos que reconectes tu cuenta de Github",
+      "error-message": "Necesitas desbloquear todo tu BEPRO antes de hacer esto"
     },
     "update-bounty-amount": {
-      "title": "Update Task Amount",
+      "title": "Actualizar Monto de la Tarea",
       "fields": {
         "amount": {
-          "label": "Amount"
+          "label": "Monto"
         }
       }
     },
     "hard-cancel": {
-      "title": "Attention!",
-      "content": "This action will return the locked amount to the original creators address along with any reward tokens and revert funding entries"
+      "title": "Atención!",
+      "content": "Esta acción devolverá la cantidad bloqueada a la dirección original del creador junto con cualquier token de recompensa y revertirá las entradas de financiación"
     },
     "already-has-network": {
-      "title": "Marketplace already exists",
-      "button-label": "My marketplace",
-      "content": "Connected wallet already has a marketplace on this network."
+      "title": "El mercado ya existe",
+      "button-label": "Mi mercado",
+      "content": "La billetera conectada ya tiene un mercado en esta red."
     },
     "settings-not-loaded": {
-      "title": "Failed to load settings",
-      "description": "Please reload the page or contact the administrator."
+      "title": "Error al cargar la configuración",
+      "description": "Por favor, recarga la página o contacta al administrador."
     },
     "wallet-mismatch": {
-      "title": "Wallet Mismatch",
-      "description-pre": "You are logged in with the wallet",
-      "description-pos": "but your Metamask is connected to another wallet.",
-      "recommendation": "Please, change the wallet on Metamask or sign in with the current wallet."
+      "title": "Desacuerdo en la billetera",
+      "description-pre": "Has iniciado sesión con la billetera",
+      "description-pos": "pero tu MetaMask está conectada a otra billetera.",
+      "recommendation": "Por favor, cambia la billetera en MetaMask o inicia sesión con la billetera actual."
     }
   },
   "forms": {
     "is": {
-      "required": "Field is required"
+      "required": "El campo es obligatorio"
     },
-    "select-placeholder": "Select...",
-    "select-placeholder-chain": "Select a supported network",
+    "select-placeholder": "Seleccionar...",
+    "select-placeholder-chain": "Seleccionar una red compatible",
     "create-deliverable": {
       "title": {
-        "label": "Title",
-        "placeholder": "Your task title"
+        "label": "Título",
+        "placeholder": "Título de tu tarea"
       },
       "description": {
-        "label": "Description",
-        "placeholder": "Type a description..."
+        "label": "Descripción",
+        "placeholder": "Escribe una descripción..."
       },
       "branch": {
-        "label": "Select a branch"
+        "label": "Seleccionar una rama"
       }
     }
   },
   "labels":{
-    "recived": "Received",
-    "recivedintotal": "Received in total"
+    "recived": "Recibido",
+    "recivedintotal": "Recibido en total"
   },
   "errors": {
-    "approve-transaction": "Failed to approve transaction",
-    "creating-issue": "Failed to create github issue!",
-    "failed-update-bounty": "Failed to update task!",
-    "read-only-network": "This marketplace is closed. It is set to read-only mode.",
-    "results-truncated": "Results Truncated",
-    "not-available-chain": "Marketplace not present on this network",
-    "something-went-wrong": "Something went wrong"
+    "approve-transaction": "Error al aprobar la transacción",
+    "creating-issue": "Error al crear el problema en GitHub!",
+    "failed-update-bounty": "Error al actualizar la tarea!",
+    "read-only-network": "Este mercado está cerrado. Está configurado en modo de solo lectura.",
+    "results-truncated": "Resultados truncados",
+    "not-available-chain": "Mercado no disponible en esta red",
+    "something-went-wrong": "Algo salió mal"
   },
   "404": {
-    "the-page": "The page you looking for was",
-    "not-found": "not found",
-    "the-link-may-be-moved": "The link you followed may be broken or the page may have been moved.",
-    "back-to-home": "Back to homepage"
+    "the-page": "La página que buscas fue",
+    "not-found": "no encontrada",
+    "the-link-may-be-moved": "Es posible que el enlace que seguiste esté roto o la página haya sido movida.",
+    "back-to-home": "Volver a la página de inicio"
   },
   "transactions": {
-    "title": "Transaction",
-    "title_other": "Transactions",
-    "modal": "Transaction Details",
-    "amount": "Amount",
-    "confirmations": "Confirmations",
-    "date": "Date",
-    "copied": "Copied {{value}}",
-    "no-transactions": "You have no transactions",
+    "title": "Transacción",
+    "title_other": "Transacciones",
+    "modal": "Detalles de la transacción",
+    "amount": "Cantidad",
+    "confirmations": "Confirmaciones",
+    "date": "Fecha",
+    "copied": "Copiado {{value}}",
+    "no-transactions": "No tienes transacciones",
     "stats": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "rejected": "Rejected",
-      "completed": "Completed",
-      "failed": "Failed"
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "rejected": "Rechazado",
+      "completed": "Completado",
+      "failed": "Fallido"
     },
     "types": {
-      "unkown": "Unknown",
-      "lock": "Lock",
-      "unlock": "Unlock",
-      "approval": "Approval",
-      "open-bounty": "Open task",
-      "delegate": "Delegate",
-      "removing-delegation": "Removing Delegation",
-      "dispute": "Dispute task",
-      "propose": "Propose merge request",
-      "close-bounty": "Close task",
-      "redeem-bounty": "Cancel task",
-      "approve-settler": "Approve Marketplace Token",
-      "recognize-finished": "Recognize task as finished",
-      "create-deliverable": "Create Deliverable",
-      "make-deliverable-ready": "Make Deliverable Ready",
-      "update-bounty-amount": "Update Task Amount",
-      "cancel-deliverable": "Cancel Deliverable",
-      "refused-by-owner": "Refuse Task Proposal",
-      "deploy-network-v2": "Deploy Marketplace",
-      "set-dispatcher": "Set Dispatcher",
-      "register-network": "Register Marketplace",
-      "deploy-bounty-token": "Deploy Task Token",
-      "set-draft-time": "Set Draft Time",
-      "set-disputable-time": "Set Disputable Time",
-      "set-council-amount": "Set Curator Amount",
-      "set-percentage-dispute": "Set Percentage for Dispute",
-      "set-cancelable-time": "Set Cancelable Time",
-      "set-oracle-exchange-rate": "Set Oracle Exchange Rate",
-      "set-proposer-fee-share": "Set Proposer Fee Share",
-      "set-merge-creator-fee-share": "Set Merge Creator Fee Share",
-      "fund-bounty": "Fund Task",
-      "retract-fund": "Retract Task Fund",
-      "withdraw-fund-reward-bounty": "Withdraw Reward Task Fund",
-      "deploy-erc20-token": "Deploy ERC20 Token",
-      "config-fees": "Config Fees",
-      "deploy-registry": "Deploy Registry",
-      "change-allowed-tokens": "Change Allowed Tokens",
-      "close-network": "Close Marketplace",
-      "amount-for-network-creation": "Amount For Marketplace Creation",
-      "fee-for-network-creation": "Fee For Marketplace Creation"
+      "unkown": "Desconocido",
+      "lock": "Bloquear",
+      "unlock": "Desbloquear",
+      "approval": "Aprobación",
+      "open-bounty": "Tarea abierta",
+      "delegate": "Delegar",
+      "removing-delegation": "Eliminando Delegación",
+      "dispute": "Disputar tarea",
+      "propose": "Proponer solicitud de fusión",
+      "close-bounty": "Cerrar tarea",
+      "redeem-bounty": "Cancelar tarea",
+      "approve-settler": "Aprobar Token del Mercado",
+      "recognize-finished": "Reconocer tarea como finalizada",
+      "create-deliverable": "Crear Entregable",
+      "make-deliverable-ready": "Preparar Entregable",
+      "update-bounty-amount": "Actualizar Cantidad de Tarea",
+      "cancel-deliverable": "Cancelar Entregable",
+      "refused-by-owner": "Rechazar Propuesta de Tarea",
+      "deploy-network-v2": "Desplegar Marketplace",
+      "set-dispatcher": "Establecer Despachador",
+      "register-network": "Registrar Marketplace",
+      "deploy-bounty-token": "Desplegar Token de Tarea",
+      "set-draft-time": "Establecer Tiempo de Borrador",
+      "set-disputable-time": "Establecer Tiempo de Disputa",
+      "set-council-amount": "Establecer Cantidad de Curadores",
+      "set-percentage-dispute": "Establecer Porcentaje para Disputa",
+      "set-cancelable-time": "Establecer Tiempo de Cancelación",
+      "set-oracle-exchange-rate": "Establecer Tasa de Cambio de Oráculo",
+      "set-proposer-fee-share": "Establecer Comisión del Proponente",
+      "set-merge-creator-fee-share": "Establecer Comisión del Creador de Fusión",
+      "fund-bounty": "Fondear Tarea",
+      "retract-fund": "Retirar Fondos de Tarea",
+      "withdraw-fund-reward-bounty": "Retirar Recompensa de Fondos de Tarea",
+      "deploy-erc20-token": "Desplegar Token ERC20",
+      "config-fees": "Configurar Comisiones",
+      "deploy-registry": "Desplegar Registro",
+      "change-allowed-tokens": "Cambiar Tokens Permitidos",
+      "close-network": "Cerrar Marketplace",
+      "amount-for-network-creation": "Cantidad Para Creación de Marketplace",
+      "fee-for-network-creation": "Comisión Para Creación de Marketplace"
     }
   },
   "sort": {
-    "label": "Sort by",
+    "label": "Ordenar por",
     "types": {
-      "newest": "Newest",
-      "oldest": "Oldest",
-      "highest-bounty": "Highest Reward",
-      "lowest-bounty": "Lowest Reward"
+      "newest": "Más reciente",
+      "oldest": "Más antiguo",
+      "highest-bounty": "Mayor recompensa",
+      "lowest-bounty": "Menor recompensa"
     }
   },
   "drag-and-drop":{
-    "attach-file": "Attach File",
-    "drag-reject": "Some files was rejected",
-    "size-limit": "Files size limit to {{value}}MB",
-    "file-too-large": "File is larger than {{value}}MB",
-    "already-uploaded": "File has been uploaded"
+    "attach-file": "Adjuntar archivo",
+    "drag-reject": "Algunos archivos fueron rechazados",
+    "size-limit": "Límite de tamaño de archivos: {{value}} MB",
+    "file-too-large": "El archivo es más grande que {{value}} MB",
+    "already-uploaded": "El archivo ya ha sido subido"
   },
   "info-data": {
-    "minutes_other": "minutes",
-    "minutes_one": "minute",
-    "minutesWithCount_other": "{{count}} minutes",
-    "minutesWithCount_one": "{{count}} minute",
-    "hours_other": "hours",
-    "hours_one": "hour",
-    "hoursWithCount_other": "{{count}} hours",
-    "hoursWithCount_one": "{{count}} hour",
-    "months_one": "month",
-    "months_other": "months",
-    "monthsWithCount_other": "{{count}} months",
-    "monthsWithCount_one": "{{count}} month",
-    "years_one": "year",
-    "years_other": "years",
-    "yearsWithCount_other": "{{count}} years",
-    "yearsWithCount_one": "{{count}} year",
-    "days_one": "day",
-    "days_other": "days",
-    "daysWithCount_other": "{{count}} days",
-    "daysWithCount_one": "{{count}} day",
-    "seconds_one": "second",
-    "seconds_other": "seconds",
-    "text-data": "Opened {{value}} Ago"
+    "minutes_other": "minutos",
+    "minutes_one": "minuto",
+    "minutesWithCount_other": "{{count}} minutos",
+    "minutesWithCount_one": "{{count}} minuto",
+    "hours_other": "horas",
+    "hours_one": "hora",
+    "hoursWithCount_other": "{{count}} horas",
+    "hoursWithCount_one": "{{count}} hora",
+    "months_one": "mes",
+    "months_other": "meses",
+    "monthsWithCount_other": "{{count}} meses",
+    "monthsWithCount_one": "{{count}} mes",
+    "years_one": "año",
+    "years_other": "años",
+    "yearsWithCount_other": "{{count}} años",
+    "yearsWithCount_one": "{{count}} año",
+    "days_one": "día",
+    "days_other": "días",
+    "daysWithCount_other": "{{count}} días",
+    "daysWithCount_one": "{{count}} día",
+    "seconds_one": "segundo",
+    "seconds_other": "segundos",
+    "text-data": "Abierto hace {{value}}"
   },
   "cookie-consent": {
-    "message": "This website uses cookies to enhance the user experience.",
-    "button-label": "Accept"
+    "message": "Este sitio web utiliza cookies para mejorar la experiencia del usuario.",
+    "button-label": "Aceptar"
   },
   "placeholders": {
-    "select-chain": "Select Network",
-    "select-latest": "Select Latest"
+    "select-chain": "Seleccionar Red",
+    "select-latest": "Seleccionar Último"
   },
   "comments": {
     "input": {
-      "placeholder":"Leave a comment..."
+      "placeholder":"Deja un comentario..."
     },
-    "button": "Comment",
-    "not-connect-wallet": "You are not connected to your wallet. To comment please connect your wallet."
+    "button": "Comentar",
+    "not-connect-wallet": "No estás conectado a tu billetera. Para comentar, por favor conecta tu billetera."
   },
   "open-graph-preview": {
-    "no-preview": "No preview available",
-    "view-link": "View Link",
-    "open-link": "Open Link",
-    "failed-to-get": "Failed to get link preview",
-    "video-not-supported": "Your browser does not support the video tag"
+    "no-preview": "No hay vista previa disponible",
+    "view-link": "Ver enlace",
+    "open-link": "Abrir enlace",
+    "failed-to-get": "Error al obtener la vista previa del enlace",
+    "video-not-supported": "Tu navegador no soporta la etiqueta de vídeo"
   }
 }

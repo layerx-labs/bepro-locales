@@ -1,21 +1,21 @@
 {
- "title": "New ERC20 Token",
- "description": "Add an ERC20 token to use on this task",
- "description-erc20": "Deploy a new token for you marketplace",
- "title-erc20": "New ERC20 Token",
+ "title": "Nuevo Token ERC20",
+ "description": "Agrega un token ERC20 para usar en esta tarea",
+ "description-erc20": "Despliega un nuevo token para tu mercado",
+ "title-erc20": "Nuevo Token ERC20",
  "fields": {
    "address": {
-     "label": "Address",
-     "error": "Invalid address provided!"
+     "label": "Dirección",
+     "error": "Se proporcionó una dirección inválida!"
    },
    "name": {
-     "label": "Name"
+     "label": "Nombre"
    },
    "symbol": {
-      "label": "Symbol"
+      "label": "Símbolo"
    },
    "min-amount": {
-     "label": "Minimum Token Amount"
+     "label": "Cantidad Mínima de Tokens"
    }
  }
 }

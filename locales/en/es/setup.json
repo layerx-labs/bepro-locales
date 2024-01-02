@@ -1,121 +1,121 @@
 {
-  "title": "Environment Setup",
+  "title": "Configuración del Entorno",
   "registry": {
-    "title": "Registry",
+    "title": "Registro",
     "changing-labels": {
-      "bounty-fees": "Task Fees",
-      "network-creation-fee": "Marketplace Creation Fee",
-      "network-creation-amount": "Marketplace Creation Amount",
-      "transactional": "Transactional Tokens",
-      "reward": "Reward Tokens"
+      "bounty-fees": "Tarifas de Tareas",
+      "network-creation-fee": "Tarifa de Creación de Mercado",
+      "network-creation-amount": "Monto de Creación de Mercado",
+      "transactional": "Tokens Transaccionales",
+      "reward": "Tokens de Recompensa"
     },
     "fields": {
       "contract-field": {
-        "placeholder": "{{contract}} contract address",
-        "hint": "View {{contract}} docs"
+        "placeholder": "Dirección del contrato {{contract}}",
+        "hint": "Ver documentos de {{contract}}"
       },
       "treasury": {
-        "label": "Treasury",
-        "placeholder": "Treasury wallet address",
-        "description": "Wallet that will receive the marketplace registry fees"
+        "label": "Tesorería",
+        "placeholder": "Dirección de la billetera de la tesorería",
+        "description": "Billetera que recibirá las tarifas de registro del mercado"
       },
       "network-creation-amount": {
-        "label": "Marketplace Creation Amount",
-        "description": "Amount needed to be locked on registry to register a marketplace"
+        "label": "Monto de Creación de Mercado",
+        "description": "Cantidad necesaria para ser bloqueada en el registro para registrar un mercado"
       },
       "network-creation-fee": {
-        "label": "Marketplace Creation Fee",
-        "description": "Percentage of the marketplace creation amount charged when a marketplace is registered"
+        "label": "Tarifa de Creación de Mercado",
+        "description": "Porcentaje del monto de creación de mercado cobrado al registrar un mercado"
       },
       "close-bounty-fee": {
-        "label": "Close Task Fee",
-        "description": "Percentage of the task amount charged when a task is closed"
+        "label": "Tarifa de Cierre de Tarea",
+        "description": "Porcentaje del monto de la tarea cobrado cuando se cierra una tarea"
       },
       "cancel-bounty-fee": {
-        "label": "Cancel Task Fee",
-        "description": "Percentage of the task amount charged when a task is canceled"
+        "label": "Tarifa de Cancelación de Tarea",
+        "description": "Porcentaje del monto de la tarea cobrado cuando se cancela una tarea"
       },
       "governance-token": {
-        "label": "Marketplace Creation Token (BEPRO)"
+        "label": "Token de Creación de Mercado (BEPRO)"
       },
       "nft-token": {
-        "label": "NFT Task Token"
+        "label": "Token de Tarea NFT"
       }
     },
     "cta": {
       "dispatcher": {
-        "call": "The Task Token requires Marketplace Registry to be set as dispatcher",
-        "action": "Set dispatcher"
+        "call": "El Token de Tarea requiere que el Registro del Mercado esté configurado como dispatcher",
+        "action": "Establecer dispatcher"
       },
       "allow-transactional": {
-        "call": "For the Registry Token to be used in tasks it needs to be allowed",
-        "action": "Allow as transactional"
+        "call": "Para que el Token de Registro se use en tareas, necesita ser permitido",
+        "action": "Permitir como transaccional"
       },
       "allow-reward": {
-        "call": "For the Registry Token to be used as reward in funding requests it needs to be allowed",
-        "action": "Allow as reward"
+        "call": "Para que el Token de Registro se use como recompensa en solicitudes de financiamiento, necesita ser permitido",
+        "action": "Permitir como recompensa"
       }
     },
     "modals": {
       "deploy-bounty-token": {
-        "title": "New Bounty Token",
+        "title": "Nuevo Token de Tarea",
         "fields": {
           "name": {
-            "label": "Name",
-            "placeholder": "Token Name"
+            "label": "Nombre",
+            "placeholder": "Nombre del Token"
           },
           "symbol": {
-            "label": "Symbol",
-            "placeholder": "Token Symbol"
+            "label": "Símbolo",
+            "placeholder": "Símbolo del Token"
           }
         },
         "actions": {
-          "deploy": "Deploy"
+          "deploy": "Desplegar"
         },
         "success": {
-          "deploy": "Bounty token deployed"
+          "deploy": "Token de tarea desplegado"
         },
         "errors": {
-          "deploy": "Failed to deploy bounty token"
+          "deploy": "Error al desplegar el token de tarea"
         }
       },
       "deploy-erc20": {
-        "title": "New ERC20 Token"
+        "title": "Nuevo Token ERC20"
       }
     },
     "actions": {
-      "deploy-registry": "Deploy Marketplace Registry",
-      "deploy-erc20": "Deploy New ERC20 Token",
-      "deploy-bounty-token": "Deploy New Bounty Token",
-      "save-registry": "Save Registry"
+      "deploy-registry": "Desplegar Registro del Mercado",
+      "deploy-erc20": "Desplegar Nuevo Token ERC20",
+      "deploy-bounty-token": "Desplegar Nuevo Token de Tarea",
+      "save-registry": "Guardar Registro"
     },
     "success": {
       "deploy": {
-        "title": "Registry deployed",
-        "content": "See the Marketplace Registry field"
+        "title": "Registro desplegado",
+        "content": "Consulte el campo Registro del Mercado"
       },
-      "dispatcher-setted": "Dispatcher setted",
-      "allow": "Token allowed"
+      "dispatcher-setted": "Dispatcher establecido",
+      "allow": "Token permitido"
     },
     "errors": {
-      "invalid-contract-address": "Please provide a valid {{contract}} address",
-      "exceeds-limit": "Value must be between {{min}} and {{max}}",
-      "greater-than": "Value must be greater than {{min}}",
-      "less-than": "Value must be less than {{max}}",
-      "missing-limits": "Missing limits values",
-      "deploy": "Failed to deploy Marketplace Registry",
-      "dispatcher": "Failed to set dispatcher",
-      "allow": "Failed to allow token",
-      "already-saved": "Marketplace Registry already saved"
+      "invalid-contract-address": "Por favor, proporcione una dirección {{contract}} válida",
+      "exceeds-limit": "El valor debe estar entre {{min}} y {{max}}",
+      "greater-than": "El valor debe ser mayor que {{min}}",
+      "less-than": "El valor debe ser menor que {{max}}",
+      "missing-limits": "Valores de límite faltantes",
+      "deploy": "Error al desplegar el Registro del Mercado",
+      "dispatcher": "Error al establecer el dispatcher",
+      "allow": "Error al permitir el token",
+      "already-saved": "El Registro del Mercado ya está guardado"
     }
   },
   "network": {
-    "title": "Marketplace",
+    "title": "Mercado",
     "errors": {
-      "network-already-saved": "Default Marketplace already saved, please visit {{network}} settings page."
+      "network-already-saved": "Mercado predeterminado ya guardado, por favor visite la página de configuración de {{network}}."
     }
   },
   "chains": {
-    "title": "Networks"
+    "title": "Redes"
   }
 }

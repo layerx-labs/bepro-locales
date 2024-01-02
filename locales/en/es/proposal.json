@@ -1,72 +1,72 @@
 {
-  "label_one": "proposal",
-  "label_other": "proposals",
-  "labelWithCount_one": "{{count}} proposal",
-  "labelWithCount_other": "{{count}} proposals",
-  "title": "Proposal",
-  "addresses_one": "{{count}} Address",
-  "addresses_other": "{{count}} Addresses",
-  "addresses_for_the_distribution": "addresses for the distribution",
-  "important": "Important",
+  "label_one": "propuesta",
+  "label_other": "propuestas",
+  "labelWithCount_one": "{{count}} propuesta",
+  "labelWithCount_other": "{{count}} propuestas",
+  "title": "Propuesta",
+  "addresses_one": "{{count}} dirección",
+  "addresses_other": "{{count}} direcciones",
+  "addresses_for_the_distribution": "direcciones para la distribución",
+  "important": "Importante",
   "actions": {
-    "new": "New Proposal",
-    "create": "Create Proposal",
-    "propose-distribution": "Propose Distribution",
-    "cancel": "Cancel"
+    "new": "Nueva Propuesta",
+    "create": "Crear Propuesta",
+    "propose-distribution": "Proponer Distribución",
+    "cancel": "Cancelar"
   },
   "messages": {
-    "no-decimals-supported": "No decimals supported",
-    "distribution-is-100": "Distribution is 100%",
-    "distribution-must-be-100": "Distribution Must be 100%",
-    "no-proposals-created": "There are no proposals created.",
-    "distribution-cant-done": "This distribution can't be done try another one",
-    "proposal-refused": "Proposal Refused",
-    "proposal-disputed": "Proposal Disputed",
-    "in-disputable-time": "{{time}} until dispute period ends",
-    "owner-deliverable": "You cannot accept a proposal containing your own deliverable",
-    "owner-proposal": "You cannot accept a proposal created by you",
-    "proposal-created": "Proposal created"
+    "no-decimals-supported": "No se admiten decimales",
+    "distribution-is-100": "La distribución es del 100%",
+    "distribution-must-be-100": "La distribución debe ser del 100%",
+    "no-proposals-created": "No se han creado propuestas.",
+    "distribution-cant-done": "Esta distribución no se puede hacer, intenta con otra",
+    "proposal-refused": "Propuesta rechazada",
+    "proposal-disputed": "Propuesta impugnada",
+    "in-disputable-time": "{{time}} hasta que termine el período de disputa",
+    "owner-deliverable": "No puedes aceptar una propuesta que contiene tu propia entrega",
+    "owner-proposal": "No puedes aceptar una propuesta creada por ti",
+    "proposal-created": "Propuesta creada"
   },
   "errors": {
-    "not-found": "No proposals found",
-    "pr-cant-merged": "Can't be merged",
-    "distribution-already-exists": "This distribution already exists on another proposal",
-    "you-dont-have-proposals": "You don't have any proposals. Find a ready task to propose.",
-    "failed-to-create": "Failed to create proposal"
+    "not-found": "No se encontraron propuestas",
+    "pr-cant-merged": "No se puede fusionar",
+    "distribution-already-exists": "Esta distribución ya existe en otra propuesta",
+    "you-dont-have-proposals": "No tienes propuestas. Encuentra una tarea lista para proponer.",
+    "failed-to-create": "Error al crear la propuesta"
   },
   "status": {
-    "refused": "Refused by task owner",
-    "failed": "Failed",
-    "open-for-dispute": "Open for Dispute",
-    "accepted": "Accepted",
-    "waiting": "Waiting for Merge"
+    "refused": "Rechazado por el propietario de la tarea",
+    "failed": "Fallido",
+    "open-for-dispute": "Abierto para disputa",
+    "accepted": "Aceptado",
+    "waiting": "Esperando para fusionar"
   },
   "merge-modal": {
-    "title": "Confirm Task Distribution",
-    "sub-title": "You are about to distribute the",
-    "bounty":"Task #{{id}}",
-    "confirm-merge": "Confirm Distribution",
-    "proposal-creator": "Proposer",
-    "proposal-creator-description": "Curator who proposed this distribution",
-    "proposal-accepter": "Accepter",
-    "proposal-accepter-description": "User who accepted the task’s solution",
-    "contributor": "Contributor {{count}}",
-    "contributor-description": "User who actively participated in the development of the task’s solution",
+    "title": "Confirmar Distribución de Tarea",
+    "sub-title": "Estás a punto de distribuir la",
+    "bounty":"Tarea #{{id}}",
+    "confirm-merge": "Confirmar Distribución",
+    "proposal-creator": "Creador de la Propuesta",
+    "proposal-creator-description": "Curador que propuso esta distribución",
+    "proposal-accepter": "Aceptador",
+    "proposal-accepter-description": "Usuario que aceptó la solución de la tarean",
+    "contributor": "Contribuyente {{count}}",
+    "contributor-description": "Usuario que participó activamente en el desarrollo de la solución de la tarea",
     "total": "total",
-    "network-fee": "Marketplace Fee",
-    "network-fee-description": "We charge a {{percentage}}% convenience fee on every distribution. This makes sure we can keep improving the platform"
+    "network-fee": "Tarifa de la Plataforma",
+    "network-fee-description": "Cobramos una tarifa de conveniencia del {{percentage}}% en cada distribución. Esto garantiza que podamos seguir mejorando la plataforma"
   },
   "create-modal": {
-    "title": "New Proposal",
-    "deliverable-creator": "Deliverable Creator",
-    "proposal-creator": "Proposal Creator",
-    "select-a-deliverable": "Select a Deliverable",
-    "preview-deliverable": "Preview Deliverable",
-    "view-deliverable": "View Deliverable",
-    "payment": "Payment",
-    "fees-info": "Complete fees information can be seen after creating proposal."
+    "title": "Nueva Propuesta",
+    "deliverable-creator": "Creador de la Entrega",
+    "proposal-creator": "Creador de la Propuesta",
+    "select-a-deliverable": "Selecciona una Entrega",
+    "preview-deliverable": "Vista Previa de la Entrega",
+    "view-deliverable": "Ver Entrega",
+    "payment": "Pago",
+    "fees-info": "La información completa sobre tarifas se puede ver después de crear la propuesta."
   },
   "disputes": {
-    "title": "Addresses disputed"
+    "title": "Direcciones en Disputa"
   }
 }

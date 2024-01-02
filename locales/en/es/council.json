@@ -1,28 +1,28 @@
 {
-  "title": "Curators",
-  "subtitle": "Use your *bv{{token}}* to create tasks distributions within the Marketplace",
-  "ready-bountys": "Ready Tasks",
-  "council-members": "Curators",
-  "distributed-developers": "Distributed to builders",
-  "empty": "No tasks ready to propose",
-  "become-council": "Become a Curator",
-  "become-council-description-part-one": "By becoming a curator you can participate in the task distribution and disputes on the marketplace. Become a Curator by locking",
-  "become-council-description-part-two": "through your wallet.",
-  "go-to-lock-unlock": "Go to Lock/Unlock",
-  "ready-to-dispute": "Ready to Dispute",
-  "ready-to-close": "Ready to Close",
-  "ready-to-propose": "Ready to Propose",
-  "council-list": "Curators List",
+  "title": "Curadores",
+  "subtitle": "Utiliza tus *bv{{token}}* para crear distribuciones de tareas dentro del Marketplace",
+  "ready-bountys": "Tareas Listas",
+  "council-members": "Miembros del Consejo",
+  "distributed-developers": "Distribuido a los constructores",
+  "empty": "No hay tareas listas para proponer",
+  "become-council": "Conviértete en un Curador",
+  "become-council-description-part-one": "Al convertirte en un curador, puedes participar en la distribución de tareas y disputas en el marketplace. Conviértete en un Curador bloqueando",
+  "become-council-description-part-two": "a través de tu billetera.",
+  "go-to-lock-unlock": "Ir a Bloquear/Desbloquear",
+  "ready-to-dispute": "Listo para Disputa",
+  "ready-to-close": "Listo para Cerrar",
+  "ready-to-propose": "Listo para Proponer",
+  "council-list": "Lista de Curadores",
   "council-table": {
-    "address": "Address",
-    "closed-proposals": "Accepted Proposals",
-    "disputed-proposals": "Disputed Proposals",
-    "disputes": "Disputes",
-    "total-votes": "Total Votes",
-    "actions": "Actions",
-    "deletage-address": "Delegate to this address"
+    "address": "Dirección",
+    "closed-proposals": "Propuestas Aceptadas",
+    "disputed-proposals": "Propuestas Disputadas",
+    "disputes": "Disputas",
+    "total-votes": "Votos Totales",
+    "actions": "Acciones",
+    "deletage-address": "Delegar a esta dirección"
   },
   "errors": {
-    "not-found": "Curators not found"
+    "not-found": "No se encontraron Curadores"
   }
 }

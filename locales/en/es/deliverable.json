@@ -1,105 +1,105 @@
 {
-    "label": "Deliverable",
-    "title": "Deliverable",
-    "label_one": "deliverable",
-    "label_other": "deliverables",
-    "labelWithCount_one": "{{count}} deliverable",
-    "labelWithCount_other": "{{count}} deliverables",
-    "abbreviation": "DR",
-    "select": "Select a deliverable",
-    "review_one": "review",
-    "review_other": "reviews",
-    "reviewWithCount_one": "{{count}} review",
-    "reviewWithCount_other": "{{count}} reviews",
-    "find-a-bounty": "Find a task to work on",
+    "label": "Entregable",
+    "title": "Entregable",
+    "label_one": "entregable",
+    "label_other": "entregables",
+    "labelWithCount_one": "{{count}} entregable",
+    "labelWithCount_other": "{{count}} entregables",
+    "abbreviation": "ED",
+    "select": "Seleccionar un entregable",
+    "review_one": "revisión",
+    "review_other": "revisiones",
+    "reviewWithCount_one": "{{count}} revisión",
+    "reviewWithCount_other": "{{count}} revisiones",
+    "find-a-bounty": "Encuentra una tarea en la que trabajar",
     "loc": "LOC",
-    "make-ready-warning": "If the deliverable is ready to be reviewed by curators, please mark it as so by using the \"Make Ready for Review\" button.",
+    "make-ready-warning": "Si el entregable está listo para ser revisado por los curadores, por favor márcalo así utilizando el botón \"Preparar para Revisión\".",
     "create": {
-        "title": "Create Deliverable",
-        "description": "A deliverable is the work you have done to deliver what was asked by the task creator. By creating a deliverable you are indicating that you finished the work and it could be reviewed and proposed as solution by the curators.",
-        "type": "Deliverable type",
-        "description-type": "Indicate the type of work you have done.",
-        "info-type": "Provide a link to your work.",
-        "markdown-helper": "Finding yourself lost with markdown language?",
-        "markdown-link": "See how to use it",
+        "title": "Crear Entregable",
+        "description": "Un entregable es el trabajo que has realizado para cumplir con lo solicitado por el creador de la tarea. Al crear un entregable, indicas que has terminado el trabajo y que podría ser revisado y propuesto como solución por los curadores.",
+        "type": "Tipo de entregable",
+        "description-type": "Indica el tipo de trabajo que has realizado.",
+        "info-type": "Proporciona un enlace a tu trabajo.",
+        "markdown-helper": "Te sientes perdido con el lenguaje Markdown?",
+        "markdown-link": "Mira cómo usarlo",
         "labels": {
-            "origin-link": "Origin Link",
-            "preview": "Preview",
-            "title": "Title"
+            "origin-link": "Enlace de origen",
+            "preview": "Vista previa",
+            "title": "Título"
         },
         "placeholders": {
             "origin-link": "github.com",
-            "preview": "Preview your embedded link",
-            "title": "Deliverable title..."
+            "preview": "Vista previa de tu enlace incrustado",
+            "title": "Título del entregable..."
         }
     },
     "actions": {
       "create": {
-        "title": "Create Deliverable",
-        "success": "Created Deliverable",
-        "error": "To create deliverable"
+        "title": "Crear Entregable",
+        "success": "Entregable creado",
+        "error": "Para crear un entregable"
       },
       "preview": {
-        "failed-to-get": "Failed to get link information, please provide a valid link.",
-        "error": "Currently we do not support this embed",
-        "error-protocol": "Missing protocol. example: https://app.bepro.network/",
-        "video-error": "Your browser does not support the video tag."
+        "failed-to-get": "Error al obtener la información del enlace, por favor proporciona un enlace válido.",
+        "error": "Actualmente no admitimos esta incrustación",
+        "error-protocol": "Protocolo faltante. Ejemplo: https://app.bepro.network/",
+        "video-error": "Tu navegador no admite la etiqueta de video."
       },
       "merge": {
-        "title": "Merge",
+        "title": "Combinar",
         "success": "",
         "error": ""
       },
       "review": {
-        "success": "Review submitted",
-        "error": "To submit review"
+        "success": "Revisión enviada",
+        "error": "Para enviar la revisión"
       },
-      "view": "View Deliverables",
+      "view": "Ver Entregables",
       "make-ready": {
-        "title": "Make ready for review",
-        "success": "Deliverable is ready for review",
-        "error": "Failed to make deliverable ready for review"
+        "title": "Preparar para revisión",
+        "success": "El entregable está listo para revisión",
+        "error": "Error al preparar el entregable para revisión"
       },
       "cancel": {
-        "title": "Cancel Deliverable",
-        "success": "Deliverable cancelled",
-        "error": "Failed to cancel deliverable"
+        "title": "Cancelar Entregable",
+        "success": "Entregable cancelado",
+        "error": "Error al cancelar el entregable"
       },
-      "go-to-deliverable": "Go to Deliverable"
+      "go-to-deliverable": "Ir al Entregable"
     },
     "status": {
-      "ready-to-merge": "Ready",
-      "draft": "Draft",
-      "merged": "Merged",
-      "conflicts": "Conflicts",
-      "closed": "Closed",
-      "broken-tests": "Broken tests",
-      "accepted": "Accepted",
-      "disputed": "Disputed",
-      "failed": "Failed",
-      "needs-approval": "Pending approval",
-      "canceled": "Canceled"
+      "ready-to-merge": "Listo",
+      "draft": "Borrador",
+      "merged": "Combinado",
+      "conflicts": "Conflictos",
+      "closed": "Cerrado",
+      "broken-tests": "Pruebas fallidas",
+      "accepted": "Aceptado",
+      "disputed": "Disputado",
+      "failed": "Fallido",
+      "needs-approval": "Pendiente de aprobación",
+      "canceled": "Cancelado"
     },
     "errors": {
-      "not-found": "No deliverables found",
-      "no-reviews-found": "No reviews found",
-      "merge-conflicts": "Deliverable has merge conflicts and can't be merged",
-      "you-dont-have-deliverables": "You don't have any Deliverables. Find a task to work on.",
-      "deliverable-participants": "Failed to get participants",
-      "merge-commit": "This proposal can't be merged because the repository don't allow \"merge commits\". Please contact the marketplace governor.",
-      "approval": "Please contact repository admin for deliverable approval before merging is enabled."
+      "not-found": "No se encontraron entregables",
+      "no-reviews-found": "No se encontraron revisiones",
+      "merge-conflicts": "El entregable tiene conflictos de combinación y no se puede combinar",
+      "you-dont-have-deliverables": "No tienes ningún entregable. Encuentra una tarea en la que trabajar.",
+      "deliverable-participants": "Error al obtener participantes",
+      "merge-commit": "Esta propuesta no se puede combinar porque el repositorio no permite \"combinaciones de confirmación\". Por favor, contacta al gobernador del mercado.",
+      "approval": "Por favor, contacta al administrador del repositorio para la aprobación del entregable antes de habilitar la fusión."
     },
     "infos": {
-      "curators": "In order to make a comment/review on this deliverable you need to be a curator, ",
-      "get-voting-power": "get voting power."
+      "curators": "Para hacer un comentario/revisión en este entregable necesitas ser un curador, ",
+      "get-voting-power": "obtener poder de voto."
     },
     "modals": {
       "make-ready": {
-        "title": "Make Ready for Review",
-        "action": "Mark as ready",
-        "description": "If the deliverable is ready to be reviewed by curators, please mark it as so.",
-        "success": "Marked deliverable as ready.",
-        "error": "Failed to mark deliverable as ready."
+        "title": "Preparar para Revisión",
+        "action": "Marcar como listo",
+        "description": "Si el entregable está listo para ser revisado por los curadores, por favor márcalo así.",
+        "success": "Marcado el entregable como listo.",
+        "error": "Error al marcar el entregable como listo."
       }
     }
   }

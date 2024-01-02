@@ -1,56 +1,56 @@
 {
-  "no-description": "No description",
-  "deployed": "Deployed!",
-  "council-amount-changed": "Curator amount changed !",
-  "deploy-contract": "Deploy contract",
-  "update-council-amount": "Update curator amount",
-  "deploy-settler-token": "Deploy settler token",
-  "change-redeem-time": "Change redeem time to 1min",
-  "change-disputable-time": "Change disputable time to 1min",
-  "select-a-repository": "Select a repository to add it to the microservice list",
-  "will=cost": "Will cost",
-  "create-bounties": "Create Tasks",
-  "list-bounties": "List Tasks",
-  "load-repos": "Load repos",
-  "override-network-name": "Override Settings",
-  "network-name": "Marketplace Name",
-  "name": "Name",
-  "description": "Description",
-  "icon": "Icon",
-  "logo": "Logo",
+  "no-description": "Sin descripción",
+  "deployed": "Desplegado!",
+  "council-amount-changed": "Cantidad de curadores cambiada!",
+  "deploy-contract": "Desplegar contrato",
+  "update-council-amount": "Actualizar cantidad de curadores",
+  "deploy-settler-token": "Desplegar token de colonizador",
+  "change-redeem-time": "Cambiar tiempo de canje a 1 minuto",
+  "change-disputable-time": "Cambiar tiempo disputable a 1 minuto",
+  "select-a-repository": "Seleccionar un repositorio para agregarlo a la lista del microservicio",
+  "will=cost": "Costará",
+  "create-bounties": "Crear Tareas",
+  "list-bounties": "Listar Tareas",
+  "load-repos": "Cargar repos",
+  "override-network-name": "Anular configuraciones",
+  "network-name": "Nombre del Marketplace",
+  "name": "Nombre",
+  "description": "Descripción",
+  "icon": "Icono",
+  "logo": "LogoLogotipo",
   "fields": {
     "github-token": {
-      "label": "Github Token",
-      "placeholder": "Token to be able to login and act"
+      "label": "Token de Github",
+      "placeholder": "Token para poder iniciar sesión y actuar"
     },
     "github-login": {
-      "label": "Github Login",
-      "placeholder": "Login handle of the owner of the token"
+      "label": "Inicio de sesión de Github",
+      "placeholder": "Identificador de inicio de sesión del propietario del token"
     },
     "contract-address": {
-      "label": "New contract address",
-      "placeholder": "Address will appear here"
+      "label": "Nueva dirección del contrato",
+      "placeholder": "La dirección aparecerá aquí"
     },
     "council-amount": {
-      "label": "New curator amount",
-      "placeholder": "Amount needed to be a curator"
+      "label": "Nueva cantidad de curadores",
+      "placeholder": "Cantidad necesaria para ser curadorr"
     },
     "settler-token-name": {
-      "label": "New settler token name",
+      "label": "Nuevo nombre del token de colonizador",
       "placeholder": "pex BEPRO"
     },
     "settler-token-symbol": {
-      "label": "New settler token symbol",
+      "label": "Nuevo símbolo del token de colonizador",
       "placeholder": "pex BEPRO"
     },
     "settler-token-address": {
-      "label": "New settler token address"
+      "label": "Nueva dirección del token de colonizador"
     }
   },
   "errors": {
-    "creating-issue-on-sc": "Failed to create issue on SC!",
-    "creating-repo": "Failed to create repo",
-    "removing-repo": "Couldn't remove repo",
-    "no-body": "No body?"
+    "creating-issue-on-sc": "Error al crear el problema en SC!",
+    "creating-repo": "Error al crear el repositorio",
+    "removing-repo": "No se pudo eliminar el repositorioo",
+    "no-body": "Sin cuerpo?"
   }
 }

@@ -1,0 +1,121 @@
+{
+  "title": "Configuración del Entorno",
+  "registry": {
+    "title": "Registro",
+    "changing-labels": {
+      "bounty-fees": "Tarifas de Tareas",
+      "network-creation-fee": "Tarifa de Creación de Mercado",
+      "network-creation-amount": "Monto de Creación de Mercado",
+      "transactional": "Tokens Transaccionales",
+      "reward": "Tokens de Recompensa"
+    },
+    "fields": {
+      "contract-field": {
+        "placeholder": "Dirección del contrato {{contract}}",
+        "hint": "Ver documentos de {{contract}}"
+      },
+      "treasury": {
+        "label": "Tesorería",
+        "placeholder": "Dirección de la billetera de la tesorería",
+        "description": "Billetera que recibirá las tarifas de registro del mercado"
+      },
+      "network-creation-amount": {
+        "label": "Monto de Creación de Mercado",
+        "description": "Cantidad necesaria para ser bloqueada en el registro para registrar un mercado"
+      },
+      "network-creation-fee": {
+        "label": "Tarifa de Creación de Mercado",
+        "description": "Porcentaje del monto de creación de mercado cobrado al registrar un mercado"
+      },
+      "close-bounty-fee": {
+        "label": "Tarifa de Cierre de Tarea",
+        "description": "Porcentaje del monto de la tarea cobrado cuando se cierra una tarea"
+      },
+      "cancel-bounty-fee": {
+        "label": "Tarifa de Cancelación de Tarea",
+        "description": "Porcentaje del monto de la tarea cobrado cuando se cancela una tarea"
+      },
+      "governance-token": {
+        "label": "Token de Creación de Mercado (BEPRO)"
+      },
+      "nft-token": {
+        "label": "Token de Tarea NFT"
+      }
+    },
+    "cta": {
+      "dispatcher": {
+        "call": "El Token de Tarea requiere que el Registro del Mercado esté configurado como dispatcher",
+        "action": "Establecer dispatcher"
+      },
+      "allow-transactional": {
+        "call": "Para que el Token de Registro se use en tareas, necesita ser permitido",
+        "action": "Permitir como transaccional"
+      },
+      "allow-reward": {
+        "call": "Para que el Token de Registro se use como recompensa en solicitudes de financiamiento, necesita ser permitido",
+        "action": "Permitir como recompensa"
+      }
+    },
+    "modals": {
+      "deploy-bounty-token": {
+        "title": "Nuevo Token de Tarea",
+        "fields": {
+          "name": {
+            "label": "Nombre",
+            "placeholder": "Nombre del Token"
+          },
+          "symbol": {
+            "label": "Símbolo",
+            "placeholder": "Símbolo del Token"
+          }
+        },
+        "actions": {
+          "deploy": "Desplegar"
+        },
+        "success": {
+          "deploy": "Token de tarea desplegado"
+        },
+        "errors": {
+          "deploy": "Error al desplegar el token de tarea"
+        }
+      },
+      "deploy-erc20": {
+        "title": "Nuevo Token ERC20"
+      }
+    },
+    "actions": {
+      "deploy-registry": "Desplegar Registro del Mercado",
+      "deploy-erc20": "Desplegar Nuevo Token ERC20",
+      "deploy-bounty-token": "Desplegar Nuevo Token de Tarea",
+      "save-registry": "Guardar Registro"
+    },
+    "success": {
+      "deploy": {
+        "title": "Registro desplegado",
+        "content": "Consulte el campo Registro del Mercado"
+      },
+      "dispatcher-setted": "Dispatcher establecido",
+      "allow": "Token permitido"
+    },
+    "errors": {
+      "invalid-contract-address": "Por favor, proporcione una dirección {{contract}} válida",
+      "exceeds-limit": "El valor debe estar entre {{min}} y {{max}}",
+      "greater-than": "El valor debe ser mayor que {{min}}",
+      "less-than": "El valor debe ser menor que {{max}}",
+      "missing-limits": "Valores de límite faltantes",
+      "deploy": "Error al desplegar el Registro del Mercado",
+      "dispatcher": "Error al establecer el dispatcher",
+      "allow": "Error al permitir el token",
+      "already-saved": "El Registro del Mercado ya está guardado"
+    }
+  },
+  "network": {
+    "title": "Mercado",
+    "errors": {
+      "network-already-saved": "Mercado predeterminado ya guardado, por favor visite la página de configuración de {{network}}."
+    }
+  },
+  "chains": {
+    "title": "Redes"
+  }
+}

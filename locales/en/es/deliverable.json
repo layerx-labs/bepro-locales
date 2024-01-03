@@ -1,0 +1,105 @@
+{
+    "label": "Entregable",
+    "title": "Entregable",
+    "label_one": "entregable",
+    "label_other": "entregables",
+    "labelWithCount_one": "{{count}} entregable",
+    "labelWithCount_other": "{{count}} entregables",
+    "abbreviation": "ED",
+    "select": "Seleccionar un entregable",
+    "review_one": "revisión",
+    "review_other": "revisiones",
+    "reviewWithCount_one": "{{count}} revisión",
+    "reviewWithCount_other": "{{count}} revisiones",
+    "find-a-bounty": "Encuentra una tarea en la que trabajar",
+    "loc": "LOC",
+    "make-ready-warning": "Si el entregable está listo para ser revisado por los curadores, por favor márcalo así utilizando el botón \"Preparar para Revisión\".",
+    "create": {
+        "title": "Crear Entregable",
+        "description": "Un entregable es el trabajo que has realizado para cumplir con lo solicitado por el creador de la tarea. Al crear un entregable, indicas que has terminado el trabajo y que podría ser revisado y propuesto como solución por los curadores.",
+        "type": "Tipo de entregable",
+        "description-type": "Indica el tipo de trabajo que has realizado.",
+        "info-type": "Proporciona un enlace a tu trabajo.",
+        "markdown-helper": "Te sientes perdido con el lenguaje Markdown?",
+        "markdown-link": "Mira cómo usarlo",
+        "labels": {
+            "origin-link": "Enlace de origen",
+            "preview": "Vista previa",
+            "title": "Título"
+        },
+        "placeholders": {
+            "origin-link": "github.com",
+            "preview": "Vista previa de tu enlace incrustado",
+            "title": "Título del entregable..."
+        }
+    },
+    "actions": {
+      "create": {
+        "title": "Crear Entregable",
+        "success": "Entregable creado",
+        "error": "Para crear un entregable"
+      },
+      "preview": {
+        "failed-to-get": "Error al obtener la información del enlace, por favor proporciona un enlace válido.",
+        "error": "Actualmente no admitimos esta incrustación",
+        "error-protocol": "Protocolo faltante. Ejemplo: https://app.bepro.network/",
+        "video-error": "Tu navegador no admite la etiqueta de video."
+      },
+      "merge": {
+        "title": "Combinar",
+        "success": "",
+        "error": ""
+      },
+      "review": {
+        "success": "Revisión enviada",
+        "error": "Para enviar la revisión"
+      },
+      "view": "Ver Entregables",
+      "make-ready": {
+        "title": "Preparar para revisión",
+        "success": "El entregable está listo para revisión",
+        "error": "Error al preparar el entregable para revisión"
+      },
+      "cancel": {
+        "title": "Cancelar Entregable",
+        "success": "Entregable cancelado",
+        "error": "Error al cancelar el entregable"
+      },
+      "go-to-deliverable": "Ir al Entregable"
+    },
+    "status": {
+      "ready-to-merge": "Listo",
+      "draft": "Borrador",
+      "merged": "Combinado",
+      "conflicts": "Conflictos",
+      "closed": "Cerrado",
+      "broken-tests": "Pruebas fallidas",
+      "accepted": "Aceptado",
+      "disputed": "Disputado",
+      "failed": "Fallido",
+      "needs-approval": "Pendiente de aprobación",
+      "canceled": "Cancelado"
+    },
+    "errors": {
+      "not-found": "No se encontraron entregables",
+      "no-reviews-found": "No se encontraron revisiones",
+      "merge-conflicts": "El entregable tiene conflictos de combinación y no se puede combinar",
+      "you-dont-have-deliverables": "No tienes ningún entregable. Encuentra una tarea en la que trabajar.",
+      "deliverable-participants": "Error al obtener participantes",
+      "merge-commit": "Esta propuesta no se puede combinar porque el repositorio no permite \"combinaciones de confirmación\". Por favor, contacta al gobernador del mercado.",
+      "approval": "Por favor, contacta al administrador del repositorio para la aprobación del entregable antes de habilitar la fusión."
+    },
+    "infos": {
+      "curators": "Para hacer un comentario/revisión en este entregable necesitas ser un curador, ",
+      "get-voting-power": "obtener poder de voto."
+    },
+    "modals": {
+      "make-ready": {
+        "title": "Preparar para Revisión",
+        "action": "Marcar como listo",
+        "description": "Si el entregable está listo para ser revisado por los curadores, por favor márcalo así.",
+        "success": "Marcado el entregable como listo.",
+        "error": "Error al marcar el entregable como listo."
+      }
+    }
+  }

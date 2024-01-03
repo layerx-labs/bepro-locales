@@ -1,0 +1,18 @@
+{
+ "title": "Tabla de Clasificación",
+ "sub-title": "Encuentra a los desarrolladores que encuentran la mayoría de las soluciones a muchos problemas",
+ "sort": {
+    "most-nfts": "Más NFTs",
+    "lowest-nfts": "Menos NFTs"
+},
+"search": "Buscar desarrolladores",
+"not-found": "No encontrado",
+"address-copied": "Dirección copiada",
+"nfts": "NFTs",
+"table": {
+    "address": "Dirección",
+    "github-handle": "Usuario de Github",
+    "nfts": "NFTs",
+    "actions": "Acciones"
+}
+}

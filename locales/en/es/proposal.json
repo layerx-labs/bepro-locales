@@ -1,0 +1,72 @@
+{
+  "label_one": "propuesta",
+  "label_other": "propuestas",
+  "labelWithCount_one": "{{count}} propuesta",
+  "labelWithCount_other": "{{count}} propuestas",
+  "title": "Propuesta",
+  "addresses_one": "{{count}} dirección",
+  "addresses_other": "{{count}} direcciones",
+  "addresses_for_the_distribution": "direcciones para la distribución",
+  "important": "Importante",
+  "actions": {
+    "new": "Nueva Propuesta",
+    "create": "Crear Propuesta",
+    "propose-distribution": "Proponer Distribución",
+    "cancel": "Cancelar"
+  },
+  "messages": {
+    "no-decimals-supported": "No se admiten decimales",
+    "distribution-is-100": "La distribución es del 100%",
+    "distribution-must-be-100": "La distribución debe ser del 100%",
+    "no-proposals-created": "No se han creado propuestas.",
+    "distribution-cant-done": "Esta distribución no se puede hacer, intenta con otra",
+    "proposal-refused": "Propuesta rechazada",
+    "proposal-disputed": "Propuesta impugnada",
+    "in-disputable-time": "{{time}} hasta que termine el período de disputa",
+    "owner-deliverable": "No puedes aceptar una propuesta que contiene tu propia entrega",
+    "owner-proposal": "No puedes aceptar una propuesta creada por ti",
+    "proposal-created": "Propuesta creada"
+  },
+  "errors": {
+    "not-found": "No se encontraron propuestas",
+    "pr-cant-merged": "No se puede fusionar",
+    "distribution-already-exists": "Esta distribución ya existe en otra propuesta",
+    "you-dont-have-proposals": "No tienes propuestas. Encuentra una tarea lista para proponer.",
+    "failed-to-create": "Error al crear la propuesta"
+  },
+  "status": {
+    "refused": "Rechazado por el propietario de la tarea",
+    "failed": "Fallido",
+    "open-for-dispute": "Abierto para disputa",
+    "accepted": "Aceptado",
+    "waiting": "Esperando para fusionar"
+  },
+  "merge-modal": {
+    "title": "Confirmar Distribución de Tarea",
+    "sub-title": "Estás a punto de distribuir la",
+    "bounty":"Tarea #{{id}}",
+    "confirm-merge": "Confirmar Distribución",
+    "proposal-creator": "Creador de la Propuesta",
+    "proposal-creator-description": "Curador que propuso esta distribución",
+    "proposal-accepter": "Aceptador",
+    "proposal-accepter-description": "Usuario que aceptó la solución de la tarean",
+    "contributor": "Contribuyente {{count}}",
+    "contributor-description": "Usuario que participó activamente en el desarrollo de la solución de la tarea",
+    "total": "total",
+    "network-fee": "Tarifa de la Plataforma",
+    "network-fee-description": "Cobramos una tarifa de conveniencia del {{percentage}}% en cada distribución. Esto garantiza que podamos seguir mejorando la plataforma"
+  },
+  "create-modal": {
+    "title": "Nueva Propuesta",
+    "deliverable-creator": "Creador de la Entrega",
+    "proposal-creator": "Creador de la Propuesta",
+    "select-a-deliverable": "Selecciona una Entrega",
+    "preview-deliverable": "Vista Previa de la Entrega",
+    "view-deliverable": "Ver Entrega",
+    "payment": "Pago",
+    "fees-info": "La información completa sobre tarifas se puede ver después de crear la propuesta."
+  },
+  "disputes": {
+    "title": "Direcciones en Disputa"
+  }
+}

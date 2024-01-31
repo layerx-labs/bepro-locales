@@ -1,0 +1,49 @@
+{
+  "title": "Financiamiento",
+  "reward": "Recompensa",
+  "rewards": "Recompensas",
+  "current-funding": "Financiamiento actual",
+  "total-amount": "Cantidad total",
+  "gross-total-amount": "Cantidad total bruta",
+  "funding-rewards": "Recompensas de financiamiento",
+  "funds-given": "Fondos otorgados",
+  "future-rewards": "Recompensas futuras",
+  "try-again": "Algo salió mal. Inténtalo de nuevo más tarde.",
+  "fund": "financiar",
+  "actions": {
+    "fund-bounty": "Financiar tarea",
+    "manage-funding": "Gestionar financiamiento",
+    "retract-funding": "Retirar financiamiento",
+    "withdraw-funding": "Retirar recompensa"
+  },
+  "modals": {
+    "fund": {
+      "title": "Financiar tarea",
+      "description": "Estás a punto de financiar",
+      "funded-succesfully": "Tarea financiada exitosamente",
+      "funded-x-symbol": "Financiado {{amount}} {{symbol}}",
+      "failed-to-fund": "Error al financiar la tarea",
+      "fields": {
+        "fund-amount": {
+          "label": "Monto a financiar"
+        }
+      }
+    },
+    "retract": {
+      "title": "Retraer Financiamiento",
+      "description": "Estás a punto de retractar",
+      "from-the": "del",
+      "retract-successfully": "Fondos Retraídos Exitosamente",
+      "retract-x-symbol": "Retracción de {{amount}} {{symbol}}",
+      "failed-to-retract": "Error al retraer fondos"
+    },
+    "reward": {
+      "title": "Retirar Recompensa de Financiamiento",
+      "description": "Estás a punto de retirar la recompensa",
+      "from-the": "del",
+      "withdraw-x-symbol": "Retirar {{amount}} {{symbol}}",
+      "withdraw-successfully": "Retiro de Recompensa de Fondos Exitoso",
+      "failed-to-withdraw": "Error al retirar la recompensa de fondos"
+    }
+  }
+}

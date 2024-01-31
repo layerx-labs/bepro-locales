@@ -1,0 +1,65 @@
+{
+  "label": "Solicitud de extracción",
+  "title": "Solicitud de extracción",
+  "label_one": "solicitud de extracción",
+  "label_other": "solicitudes de extracción",
+  "labelWithCount_one": "{{count}} solicitud de extracción",
+  "labelWithCount_other": "{{count}} solicitudes de extracción",
+  "abbreviation": "PE",
+  "select": "Seleccionar una entrega",
+  "review_one": "revisión",
+  "review_other": "revisiones",
+  "reviewWithCount_one": "{{count}} revisión",
+  "reviewWithCount_other": "{{count}} revisiones",
+  "find-a-bounty": "Encuentra una tarea en la que trabajar",
+  "loc": "LDC",
+  "actions": {
+    "create": {
+      "title": "Crear solicitud de extracción",
+      "success": "Solicitud de extracción creada",
+      "error": "ara crear una solicitud de extracción"
+    },
+    "merge": {
+      "title": "Combinar",
+      "success": "",
+      "error": ""
+    },
+    "review": {
+      "success": "Revisión enviada",
+      "error": "Para enviar una revisión"
+    },
+    "view": "Ver solicitudes de extracción",
+    "make-ready": {
+      "title": "Preparar para revisión",
+      "success": "La solicitud de extracción está lista para su revisión",
+      "error": "Error al preparar la solicitud de extracción para revisión"
+    },
+    "cancel": {
+      "title": "Cancelar solicitud de extracción",
+      "success": "Solicitud de extracción cancelada",
+      "error": "Error al cancelar la solicitud de extracción"
+    },
+    "go-to-pull-request": "Ir a la solicitud de extracción"
+  },
+  "status": {
+    "ready-to-merge": "Listo para fusionar",
+    "draft": "Borrador",
+    "merged": "Fusionado",
+    "conflicts": "Conflictos",
+    "closed": "Cerrado",
+    "broken-tests": "Pruebas fallidas",
+    "accepted": "Aceptado",
+    "disputed": "Discutido",
+    "failed": "Fallido",
+    "needs-approval": "Pendiente de aprobación"
+  },
+  "errors": {
+    "not-found": "No se encontraron solicitudes de extracción",
+    "no-reviews-found": "No se encontraron revisiones",
+    "merge-conflicts": "La solicitud de extracción tiene conflictos de fusión y no se puede fusionar",
+    "you-dont-have-deliverables": "No tienes entregables. Encuentra una tarea en la que trabajar.",
+    "deliverable-participants": "Error al obtener participantes",
+    "merge-commit": "Esta propuesta no se puede fusionar porque el repositorio no permite \"fusiones de commits\". Por favor, contacta al gobernador del mercado.",
+    "approval": "Por favor, contacta al administrador del repositorio para la aprobación de la solicitud de extracción antes de habilitar la fusión."
+  }
+}

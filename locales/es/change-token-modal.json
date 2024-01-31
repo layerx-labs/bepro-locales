@@ -1,0 +1,21 @@
+{
+ "title": "Nuevo Token ERC20",
+ "description": "Agrega un token ERC20 para usar en esta tarea",
+ "description-erc20": "Despliega un nuevo token para tu mercado",
+ "title-erc20": "Nuevo Token ERC20",
+ "fields": {
+   "address": {
+     "label": "Dirección",
+     "error": "Se proporcionó una dirección inválida!"
+   },
+   "name": {
+     "label": "Nombre"
+   },
+   "symbol": {
+      "label": "Símbolo"
+   },
+   "min-amount": {
+     "label": "Cantidad Mínima de Tokens"
+   }
+ }
+}

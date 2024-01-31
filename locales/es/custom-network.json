@@ -1,0 +1,326 @@
+{
+  "title": "Marketplace Personalizado",
+  "query-url": "URL de Consulta",
+  "close-network": "Cerrar marketplace",
+  "tokens-staked": "{{symbol}} en el marketplace",
+  "tokens-staked-description": "TOKEN bloqueados",
+  "oracles-staked": "{{symbol}} bloqueados",
+  "oracles-staked-description": "La cantidad de tokens bloqueados por usuarios para moderar el marketplace",
+  "tvl": "TVL",
+  "tvl-description": "Valor Total Bloqueado",
+  "open-bounties": "Tareas Abiertas",
+  "open-bounties-description": "Número de tareas disponibles para trabajar",
+  "total-bounties": "Tareas Totales",
+  "total-bounties-description": "Número de tareas en el marketplace",
+  "network-settings": "Configuraciones del Marketplace",
+  "network-create-warning": "Se tomará una tarifa de cantidad cuando se cree el marketplace.",
+  "network-amount-to-create": "{{amount}} {{symbol}} se tomará de estos {{totalAmount}} {{symbol}} bloqueados cuando crees el marketplace",
+  "dispute-time": "Tiempo de Disputa",
+  "percentage-for-dispute": "Porcentaje para la disputa",
+  "redeem-time": "Tiempo de Cancelación",
+  "council-amount": "Monto del Consejo",
+  "network-bounty-hall": {
+    "title": "{{network}} Sala de tareas",
+    "description": "Una colección de las tareas más recientes de los marketplaces {{network}}"
+  },
+  "cancelable-time": {
+    "label": "Tiempo Cancelable",
+    "description": "Después de este tiempo, el gobernador del marketplace puede cancelar una tarea atascada. Mín. {{min}}."
+  },
+  "oracle-exchange-rate": {
+    "label": "Tasa de Cambio del Oráculo",
+    "description": "Tasa de cambio aplicada al bloquear o desbloquear tokens en el marketplace. Mín. {{min}}.",
+    "unable-to-change": "No se puede cambiar porque hay {{amount}} {{symbol}} bloqueados."
+  },
+  "merger-fee": {
+    "label": "Tarifa de Fusión",
+    "description": "Porcentaje del monto de la tarea distribuido a la billetera que cerró la tarea. Máx. {{max}}."
+  },
+  "proposer-fee": {
+    "label": "Tarifa del Creador de Propuestas",
+    "description": "Porcentaje del monto de la tarea distribuido a la billetera que creó la propuesta aceptada. Máx. {{max}}."
+  },
+  "save-settings": "Guardar ajustes",
+  "config-tokens-registry": "Configurar Tokens Permitidos",
+  "config-tokens": "Configurar Tokens",
+  "save-transactional-config": "Guardar configuraciones transaccionales",
+  "save-reward-config": "Guardar configuraciones de recompensa",
+  "registry": {
+    "title-governor": "Gobernador del Registro",
+    "config-fees": "Configurar Tarifas",
+    "save-fees-config": "Guardar configuración de tarifas",
+    "save-create-network-fee": "Guardar tarifa para crear Marketplace",
+    "save-create-network-amount": "Guardar monto para crear Marketplace"
+  },
+  "network-info": "Información del Marketplace",
+  "network-address": "Dirección del Marketplace",
+  "add-tokens": "Agregar Tokens",
+  "remove-tokens": "Eliminar Tokens",
+  "hero": {
+    "title": "Marketplaces",
+    "explanatory-text": "Una lista de todos los marketplaces que utilizan BEPRO Marketplace para su desarrollo",
+    "number-of-networks": "Número de marketplaces",
+    "number-of-bounties": "Número total de tareas",
+    "in-the-network": "En los marketplaces"
+  },
+  "network-list-bar": {
+    "number-of-bounties": "Número de tareas",
+    "token-locked": "TOKEN bloqueados",
+    "open-bounties": "Tareas abiertas"
+  },
+  "steps": {
+    "lock": {
+      "title": "Bloquear {{currency}}",
+      "you-need-to-lock": "Para crear un mercado, necesitarás bloquear {{creatorAmount}} {{currency}}",
+      "full": "COMPLETO"
+    },
+    "network-information": {
+      "title": "Información del Marketplace",
+      "you-can-change": "Puedes cambiar esta información más tarde en tu página de Configuración del Marketplace.",
+      "fields": {
+        "logo-icon": {
+          "label": "ícono del logo"
+        },
+        "full-logo": {
+          "label": "logo completo"
+        },
+        "name": {
+          "label": "Nombre para mostrar",
+          "default": "Nombre del Marketplace",
+          "temporary": "URL de consulta temporal",
+          "helper": "Este será el nombre de tu Marketplace, también afecta tu URL de consulta.",
+          "available": "Este nombre de Marketplace está disponible.",
+          "unavailable": "Este nombre de Marketplace no está disponible. Por favor, elige un nombre diferente."
+        },
+        "description": {
+          "label": "Descripción del Marketplace",
+          "placeholder": "Escribe una descripción..."
+        },
+        "colors": {
+          "label": "Colores del Marketplace",
+          "similar-colors": "Estos colores son muy similares. Por favor, elige un color diferente."
+        }
+      },
+      "logo-helper": "Los logos deben estar en formato .svg"
+    },
+    "network-settings": {
+      "title": "Configuraciones del Marketplace",
+      "fields": {
+        "colors": {
+          "label": "Colores del Marketplace",
+          "similar-colors": "Estos colores son muy similares. Por favor, elige un color diferente.",
+          "more-colors": "Más colores",
+          "types": {
+            "primary": "Principal",
+            "secondary": "Secundario",
+            "oracle": "Oráculo",
+            "text-colour": "Color de texto",
+            "background": "Fondo",
+            "background-shadow": "Sombra de fondow",
+            "gray": "Gris",
+            "success": "Éxito",
+            "danger": "Peligro",
+            "warning": "Advertencia",
+            "info": "Información"
+          }
+        },
+        "other-settings": {
+          "title": "Otras Configuraciones",
+          "parameters-warning": "Cambiar estos parámetros lanzará una nueva transacción para cada uno.",
+          "warning-registry": "Estos valores fueron elegidos por el registro del marketplace y están sujetos a cambios",
+          "warning-add-remove-allowed-tokens": "Si hay eliminación y adición de tokens, se requerirán dos transacciones"
+        },
+        "fees": {
+          "title": "Tarifas"
+        }
+      }
+    },
+    "permissions": {
+      "title": "Permisos",
+      "domains": {
+        "title": "Lista de Bloqueo de Dominios",
+        "description": "Agregar o eliminar dominios prohibidos. Obtén control total sobre las restricciones de dominios en esta página.",
+        "list": "Dominios Prohibidos",
+        "placeholder": "Ejemplos: www.dominio, dominio.com, www.dominio.com",
+        "created-message": "Palabra prohibida creada",
+        "created-error": "Error al crear la palabra prohibida",
+        "already-exists": "La palabra prohibida ya existe",
+        "remove-message": "Palabra prohibida eliminada",
+        "remove-not-found": "Palabra prohibida no encontrada",
+        "remove-error": "Error al eliminar la palabra prohibida"
+      },
+      "allow-list": {
+        "title": "Lista de Permitidos para Crear Tareas",
+        "list-title": "Direcciones Permitidas",
+        "description": "Curar una lista de direcciones que pueden crear tareas",
+        "hint": "el valor debe ser una dirección válida",
+        "place-holder": "0xDirecciónVálida",
+        "list": "",
+        "error": {
+          "already-exists": "El usuario ya existe en la lista de permitido",
+          "not-address": "El valor escrito no es una dirección válida",
+          "": ""
+        }
+      }
+    },
+    "repositories": {
+      "title": "Agregar Repositorios",
+      "submit-label": "Crear Marketplace",
+      "give-access": "Dar acceso al {{user}} como mantenedor de la organización.",
+      "you-need-to-accept": "Necesitas aceptar esto para que el bot pueda interactuar con los repositorios.",
+      "label": "Repositorios",
+      "used-by-other-network": "Los repositorios resaltados ya están siendo utilizados por otro marketplace.",
+      "has-bounties": "Los repositorios resaltados ya tienen tareas y no se pueden eliminar.",
+      "no-repositories-selected": "No se seleccionaron repositorios. Se requiere al menos un repositorio.",
+      "user-permission-not-admin_one": "Tu nivel de permiso en este repositorio no permite dar acceso.",
+      "user-permission-not-admin_other": "Tu nivel de permiso en estos repositorios no permite dar acceso.",
+      "no-merge-commit-permission_one": "El repositorio {{repos}} no admite el tipo de fusión \"merge commits\". Por favor, permite eso en la configuración del repositorio.", 
+      "no-merge-commit-permission_other": "Los repositorios {{repos}} no admiten el tipo de fusión \"merge commits\". Por favor, permite eso en la configuración de los repositorios.",
+      "without-bot-collab_one": "El repositorio {{repos}} no tiene al bot {{bot}} como colaborador. Por favor, elimina el repositorio del marketplace y vuelve a agregarlo.",
+      "without-bot-collab_other": "Los repositorios {{repos}} no tienen al bot {{bot}} como colaborador. Por favor, elimina los repositorios del marketplace y vuélvelos a agregar."
+    },
+    "token-configuration": {
+      "title": "Token de Gobernanza",
+      "tabs": {
+        "use-registry-token": "Usar Token {{symbol}}",
+        "use-custom-token": "Usar Token Personalizado",
+        "deploy-new-token": "Desplegar Nuevo Token"
+      },
+      "fields": {
+        "tokens-dropdown": {
+          "label": "Dirección del Token del Marketplace",
+          "description": "Añade un token ERC20 para ser utilizado como token del marketplace."
+        },
+        "name": {
+          "label": "Nombre"
+        },
+        "symbol": {
+          "label": "Símbolo"
+        },
+        "address": {
+          "label": "Dirección",
+          "placeholder": "Dirección del token ERC20"
+        },
+        "decimals": {
+          "label": "Decimales"
+        },
+        "total-supply": {
+          "label": "Suministro Total"
+        },
+        "your-balance": {
+          "label": "Tu Saldo"
+        },
+        "nft-token": {
+          "label": "Dirección del Token NFT",
+          "error": {
+            "pre": "Por favor, proporciona una dirección válida de",
+            "mid": "token ERC20",
+            "post": "Dirección del Token"
+          }
+        },
+        "nft-token-uri": {
+          "label": "URI del Token NFT",
+          "error": "Debes proporcionar un URI."
+        }
+      },
+      "actions": {
+        "deploy": "Desplegar"
+      },
+      "messages": {
+        "token-deployed": {
+          "title": "Token Desplegado",
+          "content": "Verifica la dirección del token en el formulario"
+        }
+      },
+      "errors": {
+        "invalid-number": "Por favor, proporciona un número válido",
+        "lower-than-zero": "Por favor, proporciona un número mayor que cero",
+        "deploy": {
+          "title": "Fallo al desplegar",
+          "content": "El suministro del token supera el límite entero de Ethereum"
+        }
+      }
+    },
+    "treasury": {
+      "title": "Tesorería",
+      "fields": {
+        "address": {
+          "label": "Dirección de la Tesorería",
+          "error": "Por favor, proporciona una dirección válida.",
+          "info": "Campo no obligatorio, puede dejarse en blanco si no se requiere una tesorería."
+        },
+        "cancel-fee": {
+          "label": "Tarifa de Cancelación",
+          "description": "Porcentaje del monto de la tarea cobrado cuando se cancela una tarea. Mínimo {{min}} y Máximo {{max}}"
+        },
+        "close-fee": {
+          "label": "Tarifa de Cierre",
+          "description": "Porcentaje del monto de la tarea cobrado cuando se cierra una tarea. Mínimo {{min}} y Máximo {{max}}"
+        }
+      }
+    }
+  },
+  "modals": {
+    "loader": {
+      "being-prepared": "Tu mercado está siendo preparado",
+      "dont-close-window": "Por favor, no cierres esta ventana",
+      "steps": {
+        "deploy-network": "Desplegando Marketplace",
+        "changing-draft-time": "Desplegando Marketplace (Cambiando tiempo de borrador)",
+        "changing-disputable-time": "Desplegando Marketplace (Cambiando tiempo de disputa)",
+        "changing-dispute-percentage": "Desplegando Marketplace (Cambiando porcentaje de disputa)",
+        "changing-council-amount": "Desplegando Marketplace (Cambiando cantidad de curadores)",
+        "changing-cancelable-time": "Desplegando Marketplace (Cambiando tiempo cancelable)",
+        "changing-oracle-exchange-rate": "Desplegando Marketplace (Cambiando tipo de cambio del oráculo)",
+        "changing-merger-fee": "Desplegando Marketplace (Cambiando tarifa de fusión)",
+        "changing-proposer-fee": "Desplegando Marketplace (Cambiando tarifa de propuesta)",
+        "set-dispatcher": "Estableciendo Despachador de Tokens de Recompensa",
+        "add-to-registry": "Registrando Marketplace",
+        "sync-web-network": "Sincronizando Marketplace"
+      }
+    },
+    "update-github-token": {
+      "title": "Actualizar tu Token de Github",
+      "description": "Para crear tu mercado personalizado necesitamos permiso para acceder a tus repositorios",
+      "update-now": "Actualizar ahora"
+    },
+    "deploy-nft-token": {
+      "title": "Nuevo NFT",
+      "description": "Desplegar un Nuevo Token NFT para tu mercado"
+    },
+    "not-listed-tokens": {
+      "title": "Tokens no listados"
+    }
+  },
+  "messages": {
+    "refresh-the-page": "Actualiza la página para que los cambios surtan efecto.",
+    "network-closed": "Mercado cerrad.",
+    "updated-parameters": "Actualizados {{updated}} de {{total}} parámetros",
+    "network-registered": "Mercado registrado"
+  },
+  "errors": {
+    "failed-to-create-network": "Error al crear el mercado {{error}}",
+    "failed-to-register-network": "Error al registrar el mercado {{error}}",
+    "failed-to-update-network": "Error al actualizar el mercado {{error}}",
+    "failed-to-close-network": "Error al cerrar el mercado {{error}}",
+    "invalid-format": "Formato inválido",
+    "images-too-big": "Tus imágenes son demasiado grandes, máximo 1MB para ambos archivos combinados",
+    "not-found": "No se encontraron mercados",
+    "dispute-time": "El tiempo en que las propuestas pueden ser disputadas. Mín. {{min}} y Máx. {{max}} segundos.",
+    "percentage-for-dispute": "Porcentaje necesario para que una propuesta sea disputada por la comunidad. Máx. {{max}}%.",
+    "redeem-time": "El tiempo después de la creación de una tarea en la que se puede cancelar. Mín. {{min}} y Máx. {{max}} segundos.",
+    "council-amount": "La cantidad de {{token}} bloqueados necesarios para ser curador. Mín. {{min}} y Máx. {{max}}.",
+    "updating-values": "Error al actualizar los valores del mercado",
+    "updated-parameters": "Error al actualizar {{failed}} parámetros",
+    "network-not-registered": "Este mercado aún no está registrado para ser utilizado, por favor hazlo.",
+    "failed-to-update-network-id": "Error al actualizar el ID de red del mercado",
+    "you-dont-have-a-custom-network": "No tienes un mercado personalizado creado"
+  },
+  "tabs": {
+    "logo-and-colours": "Logo y Colores",
+    "repositories": "Repositorios",
+    "governance": "Gobernanza",
+    "registry": "Registroc"
+  },
+  "allow-merge": "Permitir la fusión automática de solicitudes de extracción cuando la tarea se distribuya (si desactivas esto, la fusión y cierre de solicitudes de extracción deberán realizarse manualmente)"
+}

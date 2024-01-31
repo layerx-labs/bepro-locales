@@ -1,0 +1,258 @@
+{
+  "label": "tarea",
+  "label_one": "tarea",
+  "label_other": "tareas",
+  "labelWithCount_one": "{{count}} tarea",
+  "labelWithCount_other": "{{count}} tareas",
+  "no-comments-available": "_No hay comentarios disponibles_",
+  "description": "descripción",
+  "view-all-addresses": "ver todas las direcciones",
+  "search": "Buscar una tarea por título, descripción o etiquetas",
+  "description_proposal": "Implementaciones revisadas por los curadores del mercado listas para ser aprobadas por los curadores del mercado.",
+  "description_deliverable": "Implementaciones crudas de los desarrolladores del mercado listas para ser revisadas por cualquier persona y aprobadas como propuestas por los curadores del mercado",
+  "info": {
+    "funded": "Financiado",
+    "working": "Usuarios trabajando",
+    "deliverable": "Entregable",
+    "deliverables_one": "Entregable",
+    "deliverables_other": "Entregables",
+    "proposals_one": "propuesta",
+    "proposals_other": "propuestas",
+    "reviews_one": "revisión",
+    "reviews_other": "revisiones",
+    "opened-on": "Abierto el"
+  },
+  "steps": {
+    "title": "Estado de la Tarea",
+    "draft": "Borrador",
+    "funding": "Financiamiento",
+    "development": "Desarrollo",
+    "finalized": "Finalizado",
+    "validation": "Validación y disputas",
+    "closed": "Cerrado y distribuido",
+    "select-network": "Seleccionar Mercado",
+    "details": "Detalles de la Tarea",
+    "reward": "Información de Recompensa",
+    "review": "Revisión",
+    "github": "Información de Github"
+  },
+  "descriptions": {
+    "select-network": "Selecciona la red y el mercado en los que deseas crear tu tarea",
+    "details": "Ingresa la información necesaria para entender tu tarea",
+    "github": "Indica el repositorio y la rama donde se realizará la solución",
+    "reward": "Al crear una nueva tarea, tienes dos opciones con respecto a la recompensa:",
+    "reward-1": "Financiamiento propio: Utilizas tu propio dinero para crear la tarea. Esto significa que serás responsable de proporcionar el dinero de la recompensa que se dará a la persona que complete exitosamente la tarea.",
+    "reward-2": "Buscar financiamiento: Puedes buscar financiamiento para la tarea. Esto significa que puedes buscar a otras personas dispuestas a contribuir al dinero de la recompensa.",
+    "review": "En este paso verás la información principal y tendrás una idea de cómo está progresando tu tarea"
+  },
+  "status": {
+    "ready": "listo",
+    "draft": "borrador",
+    "opened": "abierto",
+    "closed": "cerrado",
+    "completed": "completado",
+    "canceled": "cancelado",
+    "until-open": "{{distance}} hasta abrir",
+    "started-time": "comenzó hace {{distance}}",
+    "opened-time": "abierto hace {{distance}}",
+    "end-time": "a las {{data}}",
+    "pending": "pendiente",
+    "in-progress": "en progreso",
+    "open": "abierto",
+    "funding": "financiamiento",
+    "proposal": "propuesta"
+  },
+  "actions": {
+    "redeem": "Canjear",
+    "update-amount": "Actualizar cantidad",
+    "edit-bounty": "Editar tarea",
+    "owner-cancel": "Cancelar del propietario",
+    "update-bounty": "Tarea actualizada correctamente",
+    "canceled-bounty": "Tarea cancelada correctamente",
+    "recognize-finished": {
+      "title": "Reconocer como finalizado",
+      "error": "Error al marcar la tarea como finalizada"
+    },
+    "comment": {
+      "success": "Comentario creado exitosamente",
+      "error": "Error al crear el comentario" 
+    },
+    "start-working": {
+      "title": "Comenzar a Trabajar",
+      "success": "Para comenzar a trabajar en esta tarea",
+      "error": "Error para comenzar a trabajar en esta tarea"
+    },
+    "kyc": {
+      "identify-to-start": "Comenzar KYC"
+    }
+  },
+  "management": {
+    "label": "Gestión",
+    "name": "Nombre",
+    "link": "Enlace de la Tarea",
+    "hide": "Ocultar tarea",
+    "cancel": "Cancelar"
+  },
+  "errors": {
+    "fetching": "Error al obtener la tarea",
+    "no-workers": "Nadie está trabajando",
+    "no-bounties": "No hay tareas",
+    "no-bounties-in-draft": "No hay tareas en borrador",
+    "no-bounties-to-merge": "No hay tareas listas para fusionar",
+    "creating-bounty": "Error al crear la tarea",
+    "bounty-canceled": "Creación de tarea cancelada",
+    "sync": "La tarea fue creada, pero algo salió mal al leer la cadena de bloques. Por favor, vaya a la página de inicio mientras intentamos obtener su tarea",
+    "exceeds-allowance": "El monto de la tarea excede su asignación",
+    "exceeds-minimum-amount": "El monto mínimo es de {{amount}}",
+    "title-character-limit": "Excede el límite permitido de 130 caracteres: {{value}}", 
+    "description-limit": "Excede el límite permitido de caracteres y archivos: {{value}}",
+    "no-networks-chain": "La red seleccionada no tiene mercados activos",
+    "bounty-update": "Falló la actualización de la tarea",
+    "banned-domain": "Este dominio está prohibido y no se puede usar para abrir tareas.",
+    "failed-to-cancel": "No se pudo cancelar la tarea",
+    "invalid-link": "Enlace inválido proporcionado. Por favor, verifica si el enlace tiene el protocolo (http/https) o si el enlace es correcto."
+  },
+  "title": "Crear nueva Tarea",
+  "fields": {
+    "title": {
+      "label": "Título",
+      "placeholder": "Título de tu tarea"
+    },
+    "description": {
+      "label": "Descripción",
+      "placeholder": "Escribe una descripción..."
+    },
+    "tags": "Etiquetas",
+    "tags-info": "Hasta 3 etiquetas",
+    "reward-type": "Tipo de Recompensa",
+    "select-token": {
+      "label": "Seleccionar Token",
+      "bounty": "Establecer Recompensa",
+      "reward": "Establecer Recompensa Financiada",
+      "funding": "Establecer Cantidad de Financiamiento"
+    },
+    "set": "Establecer",
+    "amount": {
+      "label": "cantidad",
+      "info": "{{amount}} {{token}} disponible(s)",
+      "max": "Usar máximo"
+    },
+    "conversion-token": {
+      "not-found": "Error al intentar buscar en Coingecko"
+    },
+    "deliverable-types": {
+      "label": "Tipos de Entregables",
+      "description": "Especifica el tipo de trabajo para esta tarea.",
+      "types": {
+        "code": "Código",
+        "design": "Diseño",
+        "other": "Otro"
+      }
+    },
+    "origin-link": {
+      "label": "Enlace de Origen",
+      "description": "Si tienes una plantilla de proyecto, un diseño en Figma, o algo que pueda ayudar a las personas a trabajar en esta tarea, puedes proporcionar un enlace a continuación.",
+      "placeholders": {
+        "default": "Enlace al repositorio, plantilla de Figma, etc",
+        "code": "Enlace al repositorio",
+        "design": "Plantilla de Figma o enlace al diseño",
+        "other": "Enlace al documento, etc"
+      }
+    }
+  },
+  "reward-funders": "Establecer Recompensa para Financiadores",
+  "reward-funders-description": "Recompensa a cualquier persona que financie esta tarea.",
+  "review": {
+    "repository": "Repositorio",
+    "branch": "Rama"
+  },
+  "create-bounty": "Crear Tarea", 
+  "create-funding": "Crear Solicitud de Financiamiento", 
+  "not-found-funding": "Las solicitudes de financiamiento permiten que la comunidad misma financie ideas que les gustaría para sus aplicacione",
+  "not-found-bounty": "No se encontraron tareas recientes",
+  "next-step": "Siguiente Paso",
+  "bounty-created": "Tarea creada",
+  "in-bounties": "en Tareas",
+  "distributed": "distribuido",
+  "title-bounties": "Sala de Tareas",
+  "sub-title-bounties": "Una colección de las tareas más recientes y Mercados MVP en nuestro ecosistema",
+  "most-active-networks": "Mercados más Activos",
+  "recent-bounties": "Tareas Recientes",
+  "recent-funding": "Solicitudes de Financiamiento Recientes",
+  "all-bounties": "Todas las Tareas",
+  "explore-all": "Explorar Todas",
+  "recent-bounties-empty": "No se encontraron tareas reciente",
+  "edit-text": "Actualmente estás editando una tarea",
+  "save-changes": "Guardar Cambios",
+  "cancel-changes": "Cancelar Cambios",
+  "preview": "vista previa",
+  "write": "escribir", 
+  "self-fund": "Financiamiento Propio",
+  "seek-funding": "Buscar Financiamiento",
+  "seeking-funding": "Buscando Financiamiento",
+  "balance": "Saldo Total:",
+  "edit": "editar",
+  "most-active-network-empty": "No se encontraron mercados activos",
+  "kyc": {
+    "is-required": "Validación KYC requerida",
+    "refresh": "Actualizar Sesión",
+    "tool-tip": "Es obligatorio realizar una validación KYC para participar en la tarea.",
+    "bounty-tool-tip": "Esta tarea requiere KYC, puedes activarlo en tu perfil",
+    "identify-to-start": "Comenzar KYC",
+    "identify-kyc": "Comenzar KYC",
+    "identified": "Identificado con éxito, puedes cerrar este modal",
+    "identifying": "Identificando..",
+    "label": "KYC",
+    "steps": "{{current}} de {{total}} pasos"
+  },
+  "proposal-creator": "Creador de Propuestas",
+  "proposal-merger": "Combinador",
+  "network-fee": "Tarifa de Mercado",
+  "bounty-examples": "Ver ejemplos de tareas",
+  "finding-yourself-lost": "Te sientes perdido?",
+  "terms-and-conditions": "términos y condiciones.",
+  "creating-this-bounty": "Al crear esta tarea, aceptas nuestros",
+  "see-bounty": "Ver Tarea",
+  "created-success": "Tarea creada exitosamente!",
+  "service-fee": {
+    "title": "Tarifas de Servicio",
+    "description": "Puedes encontrar más información en nuestra",
+    "doc": "Documentación",
+    "support-message": "Cantidad pagada para incentivar a la comunidad a participar en el mercado"
+  },
+  "step-of": "Paso {{currentStep}} de {{maxSteps}}",
+  "step": "Paso {{currentStep}}",
+  "set-reward-description": "Cantidad distribuida a la persona cuya solución fue aceptada",
+  "set-funded-reward-description": "Cantidad que deseas recaudar para ser distribuida a la persona cuya solución fue aceptada",
+  "set-funders-reward-description": "Cantidad que deseas pagar a los financiadores como compensación por su participación",
+  "total-amount": {
+    "title": "Cantidad Total",
+    "description": "Cantidad que pagarás por esta tarea (recompensa + tarifas de servicios)"
+  },
+  "modals": {
+    "origin-link-warning": {
+      "title": "Origen",
+      "you-are-going-to": "Estás a punto de navegar a",
+      "provided-by": "Este enlace fue proporcionado por el creador de la tarea. Por favor, ten cuidado y accede solo si conoces el dominio.",
+      "open-link": "Abrir enlace"
+    },
+    "allow-list": {
+      "title": "No permitido",
+      "content": "La creación de tareas está restringida en este mercado a una lista curada de direcciones. Por favor, selecciona otro mercado o contacta al gobernador del mercado."
+    }
+  },
+  "allow-list": {
+    "not-allowed": "No se permite la creación de tareas con esta dirección"
+  },
+  "review-section": {
+    "marketplace": "Mercado",
+    "title": "Título",
+    "description": "Descripción",
+    "tags": "Etiquetas",
+    "originLink": "Enlace de Origen",
+    "deliverableType": "Tipo de Entregable",
+    "totalAmount": "Cantidad Total",
+    "fundersReward": "Recompensa para Financiadores"
+  },
+  "approximated-values-warning": "Definir el monto de la recompensa resultará en valores aproximados en el contrato. Si deseas valores exactos, primero establece la Cantidad Total."
+}

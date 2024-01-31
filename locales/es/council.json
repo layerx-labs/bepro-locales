@@ -1,0 +1,28 @@
+{
+  "title": "Curadores",
+  "subtitle": "Utiliza tus *bv{{token}}* para crear distribuciones de tareas dentro del Marketplace",
+  "ready-bountys": "Tareas Listas",
+  "council-members": "Miembros del Consejo",
+  "distributed-developers": "Distribuido a los constructores",
+  "empty": "No hay tareas listas para proponer",
+  "become-council": "Conviértete en un Curador",
+  "become-council-description-part-one": "Al convertirte en un curador, puedes participar en la distribución de tareas y disputas en el marketplace. Conviértete en un Curador bloqueando",
+  "become-council-description-part-two": "a través de tu billetera.",
+  "go-to-lock-unlock": "Ir a Bloquear/Desbloquear",
+  "ready-to-dispute": "Listo para Disputa",
+  "ready-to-close": "Listo para Cerrar",
+  "ready-to-propose": "Listo para Proponer",
+  "council-list": "Lista de Curadores",
+  "council-table": {
+    "address": "Dirección",
+    "closed-proposals": "Propuestas Aceptadas",
+    "disputed-proposals": "Propuestas Disputadas",
+    "disputes": "Disputas",
+    "total-votes": "Votos Totales",
+    "actions": "Acciones",
+    "deletage-address": "Delegar a esta dirección"
+  },
+  "errors": {
+    "not-found": "No se encontraron Curadores"
+  }
+}

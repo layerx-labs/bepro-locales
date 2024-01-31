@@ -1,0 +1,56 @@
+{
+  "no-description": "Sin descripción",
+  "deployed": "Desplegado!",
+  "council-amount-changed": "Cantidad de curadores cambiada!",
+  "deploy-contract": "Desplegar contrato",
+  "update-council-amount": "Actualizar cantidad de curadores",
+  "deploy-settler-token": "Desplegar token de colonizador",
+  "change-redeem-time": "Cambiar tiempo de canje a 1 minuto",
+  "change-disputable-time": "Cambiar tiempo disputable a 1 minuto",
+  "select-a-repository": "Seleccionar un repositorio para agregarlo a la lista del microservicio",
+  "will=cost": "Costará",
+  "create-bounties": "Crear Tareas",
+  "list-bounties": "Listar Tareas",
+  "load-repos": "Cargar repos",
+  "override-network-name": "Anular configuraciones",
+  "network-name": "Nombre del Marketplace",
+  "name": "Nombre",
+  "description": "Descripción",
+  "icon": "Icono",
+  "logo": "LogoLogotipo",
+  "fields": {
+    "github-token": {
+      "label": "Token de Github",
+      "placeholder": "Token para poder iniciar sesión y actuar"
+    },
+    "github-login": {
+      "label": "Inicio de sesión de Github",
+      "placeholder": "Identificador de inicio de sesión del propietario del token"
+    },
+    "contract-address": {
+      "label": "Nueva dirección del contrato",
+      "placeholder": "La dirección aparecerá aquí"
+    },
+    "council-amount": {
+      "label": "Nueva cantidad de curadores",
+      "placeholder": "Cantidad necesaria para ser curadorr"
+    },
+    "settler-token-name": {
+      "label": "Nuevo nombre del token de colonizador",
+      "placeholder": "pex BEPRO"
+    },
+    "settler-token-symbol": {
+      "label": "Nuevo símbolo del token de colonizador",
+      "placeholder": "pex BEPRO"
+    },
+    "settler-token-address": {
+      "label": "Nueva dirección del token de colonizador"
+    }
+  },
+  "errors": {
+    "creating-issue-on-sc": "Error al crear el problema en SC!",
+    "creating-repo": "Error al crear el repositorio",
+    "removing-repo": "No se pudo eliminar el repositorioo",
+    "no-body": "Sin cuerpo?"
+  }
+}
